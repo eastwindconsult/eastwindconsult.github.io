@@ -1,0 +1,3879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>A KML of PrecSlpWind</name>
+<LookAt>
+  <longitude>-0.183</longitude>
+  <latitude>4.613</latitude>
+  <altitude>0</altitude>
+  <heading>0</heading>
+  <tilt>0</tilt>
+  <range>4.36334e+06</range>
+<altitudeMode>relativeToGround</altitudeMode>
+</LookAt>
+<Folder>
+<name>precslpwind</name>
+<GroundOverlay>
+<name>2023-02-22_00:00:00</name>
+<TimeSpan>
+<begin>2023-02-21T23:45Z</begin>
+<end>2023-02-22T00:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_00-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_00:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T00:00Z</begin>
+<end>2023-02-22T00:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_00-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_00:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T00:15Z</begin>
+<end>2023-02-22T00:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_00-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_00:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T00:30Z</begin>
+<end>2023-02-22T00:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_00-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_01:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T00:45Z</begin>
+<end>2023-02-22T01:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_01-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_01:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T01:00Z</begin>
+<end>2023-02-22T01:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_01-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_01:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T01:15Z</begin>
+<end>2023-02-22T01:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_01-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_01:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T01:30Z</begin>
+<end>2023-02-22T01:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_01-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_02:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T01:45Z</begin>
+<end>2023-02-22T02:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_02-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_02:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T02:00Z</begin>
+<end>2023-02-22T02:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_02-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_02:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T02:15Z</begin>
+<end>2023-02-22T02:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_02-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_02:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T02:30Z</begin>
+<end>2023-02-22T02:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_02-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_03:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T02:45Z</begin>
+<end>2023-02-22T03:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_03-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_03:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T03:00Z</begin>
+<end>2023-02-22T03:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_03-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_03:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T03:15Z</begin>
+<end>2023-02-22T03:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_03-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_03:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T03:30Z</begin>
+<end>2023-02-22T03:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_03-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_04:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T03:45Z</begin>
+<end>2023-02-22T04:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_04-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_04:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T04:00Z</begin>
+<end>2023-02-22T04:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_04-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_04:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T04:15Z</begin>
+<end>2023-02-22T04:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_04-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_04:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T04:30Z</begin>
+<end>2023-02-22T04:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_04-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_05:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T04:45Z</begin>
+<end>2023-02-22T05:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_05-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_05:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T05:00Z</begin>
+<end>2023-02-22T05:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_05-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_05:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T05:15Z</begin>
+<end>2023-02-22T05:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_05-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_05:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T05:30Z</begin>
+<end>2023-02-22T05:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_05-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_06:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T05:45Z</begin>
+<end>2023-02-22T06:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_06-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_06:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T06:00Z</begin>
+<end>2023-02-22T06:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_06-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_06:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T06:15Z</begin>
+<end>2023-02-22T06:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_06-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_06:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T06:30Z</begin>
+<end>2023-02-22T06:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_06-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_07:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T06:45Z</begin>
+<end>2023-02-22T07:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_07-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_07:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T07:00Z</begin>
+<end>2023-02-22T07:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_07-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_07:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T07:15Z</begin>
+<end>2023-02-22T07:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_07-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_07:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T07:30Z</begin>
+<end>2023-02-22T07:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_07-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_08:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T07:45Z</begin>
+<end>2023-02-22T08:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_08-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_08:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T08:00Z</begin>
+<end>2023-02-22T08:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_08-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_08:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T08:15Z</begin>
+<end>2023-02-22T08:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_08-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_08:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T08:30Z</begin>
+<end>2023-02-22T08:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_08-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_09:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T08:45Z</begin>
+<end>2023-02-22T09:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_09-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_09:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T09:00Z</begin>
+<end>2023-02-22T09:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_09-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_09:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T09:15Z</begin>
+<end>2023-02-22T09:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_09-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_09:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T09:30Z</begin>
+<end>2023-02-22T09:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_09-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_10:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T09:45Z</begin>
+<end>2023-02-22T10:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_10-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_10:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T10:00Z</begin>
+<end>2023-02-22T10:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_10-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_10:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T10:15Z</begin>
+<end>2023-02-22T10:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_10-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_10:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T10:30Z</begin>
+<end>2023-02-22T10:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_10-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_11:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T10:45Z</begin>
+<end>2023-02-22T11:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_11-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_11:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T11:00Z</begin>
+<end>2023-02-22T11:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_11-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_11:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T11:15Z</begin>
+<end>2023-02-22T11:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_11-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_11:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T11:30Z</begin>
+<end>2023-02-22T11:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_11-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_12:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T11:45Z</begin>
+<end>2023-02-22T12:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_12-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_12:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T12:00Z</begin>
+<end>2023-02-22T12:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_12-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_12:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T12:15Z</begin>
+<end>2023-02-22T12:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_12-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_12:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T12:30Z</begin>
+<end>2023-02-22T12:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_12-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_13:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T12:45Z</begin>
+<end>2023-02-22T13:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_13-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_13:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T13:00Z</begin>
+<end>2023-02-22T13:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_13-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_13:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T13:15Z</begin>
+<end>2023-02-22T13:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_13-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_13:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T13:30Z</begin>
+<end>2023-02-22T13:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_13-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_14:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T13:45Z</begin>
+<end>2023-02-22T14:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_14-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_14:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T14:00Z</begin>
+<end>2023-02-22T14:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_14-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_14:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T14:15Z</begin>
+<end>2023-02-22T14:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_14-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_14:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T14:30Z</begin>
+<end>2023-02-22T14:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_14-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_15:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T14:45Z</begin>
+<end>2023-02-22T15:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_15-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_15:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T15:00Z</begin>
+<end>2023-02-22T15:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_15-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_15:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T15:15Z</begin>
+<end>2023-02-22T15:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_15-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_15:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T15:30Z</begin>
+<end>2023-02-22T15:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_15-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_16:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T15:45Z</begin>
+<end>2023-02-22T16:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_16-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_16:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T16:00Z</begin>
+<end>2023-02-22T16:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_16-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_16:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T16:15Z</begin>
+<end>2023-02-22T16:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_16-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_16:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T16:30Z</begin>
+<end>2023-02-22T16:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_16-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_17:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T16:45Z</begin>
+<end>2023-02-22T17:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_17-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_17:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T17:00Z</begin>
+<end>2023-02-22T17:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_17-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_17:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T17:15Z</begin>
+<end>2023-02-22T17:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_17-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_17:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T17:30Z</begin>
+<end>2023-02-22T17:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_17-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_18:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T17:45Z</begin>
+<end>2023-02-22T18:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_18-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_18:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T18:00Z</begin>
+<end>2023-02-22T18:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_18-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_18:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T18:15Z</begin>
+<end>2023-02-22T18:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_18-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_18:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T18:30Z</begin>
+<end>2023-02-22T18:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_18-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_19:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T18:45Z</begin>
+<end>2023-02-22T19:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_19-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_19:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T19:00Z</begin>
+<end>2023-02-22T19:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_19-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_19:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T19:15Z</begin>
+<end>2023-02-22T19:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_19-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_19:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T19:30Z</begin>
+<end>2023-02-22T19:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_19-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_20:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T19:45Z</begin>
+<end>2023-02-22T20:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_20-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_20:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T20:00Z</begin>
+<end>2023-02-22T20:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_20-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_20:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T20:15Z</begin>
+<end>2023-02-22T20:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_20-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_20:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T20:30Z</begin>
+<end>2023-02-22T20:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_20-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_21:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T20:45Z</begin>
+<end>2023-02-22T21:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_21-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_21:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T21:00Z</begin>
+<end>2023-02-22T21:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_21-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_21:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T21:15Z</begin>
+<end>2023-02-22T21:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_21-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_21:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T21:30Z</begin>
+<end>2023-02-22T21:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_21-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_22:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T21:45Z</begin>
+<end>2023-02-22T22:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_22-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_22:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T22:00Z</begin>
+<end>2023-02-22T22:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_22-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_22:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T22:15Z</begin>
+<end>2023-02-22T22:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_22-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_22:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T22:30Z</begin>
+<end>2023-02-22T22:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_22-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_23:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T22:45Z</begin>
+<end>2023-02-22T23:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_23-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_23:15:00</name>
+<TimeSpan>
+<begin>2023-02-22T23:00Z</begin>
+<end>2023-02-22T23:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_23-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_23:30:00</name>
+<TimeSpan>
+<begin>2023-02-22T23:15Z</begin>
+<end>2023-02-22T23:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_23-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-22_23:45:00</name>
+<TimeSpan>
+<begin>2023-02-22T23:30Z</begin>
+<end>2023-02-22T23:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-22_23-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_00:00:00</name>
+<TimeSpan>
+<begin>2023-02-22T23:45Z</begin>
+<end>2023-02-23T00:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_00-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_00:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T00:00Z</begin>
+<end>2023-02-23T00:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_00-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_00:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T00:15Z</begin>
+<end>2023-02-23T00:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_00-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_00:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T00:30Z</begin>
+<end>2023-02-23T00:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_00-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_01:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T00:45Z</begin>
+<end>2023-02-23T01:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_01-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_01:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T01:00Z</begin>
+<end>2023-02-23T01:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_01-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_01:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T01:15Z</begin>
+<end>2023-02-23T01:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_01-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_01:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T01:30Z</begin>
+<end>2023-02-23T01:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_01-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_02:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T01:45Z</begin>
+<end>2023-02-23T02:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_02-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_02:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T02:00Z</begin>
+<end>2023-02-23T02:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_02-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_02:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T02:15Z</begin>
+<end>2023-02-23T02:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_02-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_02:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T02:30Z</begin>
+<end>2023-02-23T02:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_02-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_03:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T02:45Z</begin>
+<end>2023-02-23T03:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_03-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_03:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T03:00Z</begin>
+<end>2023-02-23T03:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_03-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_03:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T03:15Z</begin>
+<end>2023-02-23T03:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_03-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_03:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T03:30Z</begin>
+<end>2023-02-23T03:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_03-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_04:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T03:45Z</begin>
+<end>2023-02-23T04:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_04-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_04:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T04:00Z</begin>
+<end>2023-02-23T04:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_04-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_04:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T04:15Z</begin>
+<end>2023-02-23T04:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_04-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_04:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T04:30Z</begin>
+<end>2023-02-23T04:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_04-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_05:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T04:45Z</begin>
+<end>2023-02-23T05:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_05-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_05:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T05:00Z</begin>
+<end>2023-02-23T05:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_05-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_05:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T05:15Z</begin>
+<end>2023-02-23T05:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_05-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_05:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T05:30Z</begin>
+<end>2023-02-23T05:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_05-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_06:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T05:45Z</begin>
+<end>2023-02-23T06:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_06-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_06:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T06:00Z</begin>
+<end>2023-02-23T06:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_06-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_06:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T06:15Z</begin>
+<end>2023-02-23T06:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_06-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_06:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T06:30Z</begin>
+<end>2023-02-23T06:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_06-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_07:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T06:45Z</begin>
+<end>2023-02-23T07:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_07-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_07:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T07:00Z</begin>
+<end>2023-02-23T07:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_07-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_07:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T07:15Z</begin>
+<end>2023-02-23T07:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_07-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_07:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T07:30Z</begin>
+<end>2023-02-23T07:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_07-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_08:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T07:45Z</begin>
+<end>2023-02-23T08:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_08-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_08:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T08:00Z</begin>
+<end>2023-02-23T08:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_08-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_08:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T08:15Z</begin>
+<end>2023-02-23T08:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_08-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_08:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T08:30Z</begin>
+<end>2023-02-23T08:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_08-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_09:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T08:45Z</begin>
+<end>2023-02-23T09:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_09-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_09:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T09:00Z</begin>
+<end>2023-02-23T09:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_09-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_09:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T09:15Z</begin>
+<end>2023-02-23T09:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_09-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_09:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T09:30Z</begin>
+<end>2023-02-23T09:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_09-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_10:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T09:45Z</begin>
+<end>2023-02-23T10:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_10-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_10:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T10:00Z</begin>
+<end>2023-02-23T10:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_10-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_10:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T10:15Z</begin>
+<end>2023-02-23T10:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_10-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_10:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T10:30Z</begin>
+<end>2023-02-23T10:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_10-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_11:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T10:45Z</begin>
+<end>2023-02-23T11:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_11-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_11:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T11:00Z</begin>
+<end>2023-02-23T11:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_11-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_11:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T11:15Z</begin>
+<end>2023-02-23T11:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_11-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_11:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T11:30Z</begin>
+<end>2023-02-23T11:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_11-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_12:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T11:45Z</begin>
+<end>2023-02-23T12:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_12-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_12:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T12:00Z</begin>
+<end>2023-02-23T12:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_12-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_12:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T12:15Z</begin>
+<end>2023-02-23T12:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_12-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_12:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T12:30Z</begin>
+<end>2023-02-23T12:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_12-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_13:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T12:45Z</begin>
+<end>2023-02-23T13:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_13-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_13:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T13:00Z</begin>
+<end>2023-02-23T13:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_13-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_13:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T13:15Z</begin>
+<end>2023-02-23T13:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_13-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_13:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T13:30Z</begin>
+<end>2023-02-23T13:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_13-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_14:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T13:45Z</begin>
+<end>2023-02-23T14:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_14-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_14:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T14:00Z</begin>
+<end>2023-02-23T14:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_14-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_14:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T14:15Z</begin>
+<end>2023-02-23T14:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_14-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_14:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T14:30Z</begin>
+<end>2023-02-23T14:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_14-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_15:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T14:45Z</begin>
+<end>2023-02-23T15:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_15-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_15:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T15:00Z</begin>
+<end>2023-02-23T15:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_15-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_15:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T15:15Z</begin>
+<end>2023-02-23T15:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_15-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_15:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T15:30Z</begin>
+<end>2023-02-23T15:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_15-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_16:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T15:45Z</begin>
+<end>2023-02-23T16:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_16-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_16:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T16:00Z</begin>
+<end>2023-02-23T16:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_16-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_16:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T16:15Z</begin>
+<end>2023-02-23T16:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_16-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_16:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T16:30Z</begin>
+<end>2023-02-23T16:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_16-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_17:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T16:45Z</begin>
+<end>2023-02-23T17:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_17-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_17:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T17:00Z</begin>
+<end>2023-02-23T17:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_17-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_17:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T17:15Z</begin>
+<end>2023-02-23T17:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_17-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_17:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T17:30Z</begin>
+<end>2023-02-23T17:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_17-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_18:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T17:45Z</begin>
+<end>2023-02-23T18:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_18-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_18:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T18:00Z</begin>
+<end>2023-02-23T18:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_18-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_18:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T18:15Z</begin>
+<end>2023-02-23T18:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_18-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_18:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T18:30Z</begin>
+<end>2023-02-23T18:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_18-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_19:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T18:45Z</begin>
+<end>2023-02-23T19:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_19-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_19:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T19:00Z</begin>
+<end>2023-02-23T19:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_19-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_19:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T19:15Z</begin>
+<end>2023-02-23T19:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_19-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_19:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T19:30Z</begin>
+<end>2023-02-23T19:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_19-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_20:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T19:45Z</begin>
+<end>2023-02-23T20:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_20-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_20:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T20:00Z</begin>
+<end>2023-02-23T20:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_20-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_20:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T20:15Z</begin>
+<end>2023-02-23T20:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_20-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_20:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T20:30Z</begin>
+<end>2023-02-23T20:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_20-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_21:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T20:45Z</begin>
+<end>2023-02-23T21:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_21-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_21:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T21:00Z</begin>
+<end>2023-02-23T21:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_21-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_21:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T21:15Z</begin>
+<end>2023-02-23T21:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_21-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_21:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T21:30Z</begin>
+<end>2023-02-23T21:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_21-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_22:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T21:45Z</begin>
+<end>2023-02-23T22:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_22-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_22:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T22:00Z</begin>
+<end>2023-02-23T22:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_22-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_22:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T22:15Z</begin>
+<end>2023-02-23T22:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_22-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_22:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T22:30Z</begin>
+<end>2023-02-23T22:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_22-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_23:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T22:45Z</begin>
+<end>2023-02-23T23:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_23-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_23:15:00</name>
+<TimeSpan>
+<begin>2023-02-23T23:00Z</begin>
+<end>2023-02-23T23:15Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_23-15-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_23:30:00</name>
+<TimeSpan>
+<begin>2023-02-23T23:15Z</begin>
+<end>2023-02-23T23:30Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_23-30-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-23_23:45:00</name>
+<TimeSpan>
+<begin>2023-02-23T23:30Z</begin>
+<end>2023-02-23T23:45Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-23_23-45-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-02-24_00:00:00</name>
+<TimeSpan>
+<begin>2023-02-23T23:45Z</begin>
+<end>2023-02-24T00:00Z</end>
+</TimeSpan>
+<color>bbffffff</color>
+<Icon>
+<href>/forecast/precslpwind/2023022200/wrf_precslpwind_2023-02-24_00-00-00.svg</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+</Folder>
+</Document>
+</kml>
+
