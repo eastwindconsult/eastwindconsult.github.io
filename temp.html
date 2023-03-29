@@ -1,0 +1,140 @@
+<!-- This is written by Peter Nunekpeku | pnunekpeku5@gmail.com | eastwindconsultintl@gmail.com -->        
+<!--  modified 2022-06-30 UTC  -->
+
+<html>
+    <head>
+      <title>EASTWIND CONSULT WEATHER</title>
+
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="styles/leaflet.css" />
+      <link rel="stylesheet" href="styles/mykmlstyles.css" />
+      
+      <!--[if lte IE 8]><link rel="stylesheet" href="leaflet/leaflet.ie.css" /><![endif]-->
+      
+      <script src="js/leaflet.js"></script>
+      
+      <!-- Bring in the leaflet KML plugin -->
+      <script src="js/KML.js"></script> 
+
+    </head>
+    <body>
+
+        <div id="map">      
+            <div class="button container"> 
+            <!-- Todo: uncomment the line below to show date and time at the header of page -->        
+            <!--        <li class="fslide"></li><li class="fslide"></li>  -->        
+            <div class="buttons">
+              <div>
+                  <ul id="fslides">
+                  <li class="fslide" id="fcstDate"></li>
+                  <li class="fslide" id="fcstHour"></li>
+                  <li class="fslide" id="fcstZone">UTC</li>
+                  <br>
+                  </ul>
+                  <br>
+              </div> 
+                          <button class="controls" id="previous">&lt;</button>
+                          <button class="controls" id="pause">&#10074;&#10074;</button>
+                          <button class="controls" id="next">&gt;</button>
+                  </div>
+                  <div>
+                    <button id="capture">Record Forecast</button>
+                  </div>
+                 
+                  <video class="video"></video>    
+              </div>
+
+              <div class="logo">
+                      <img src="images/eastwindconsult.png" alt="eastwindconsultlogo"/>
+              </div>
+
+              <div id="loader"></div> 
+
+        <div class="logo">
+              <img src="images/eastwindconsult.png" alt="eastwindconsultlogo"/>
+        </div>
+        <div class="legend">
+                <img src="images/wrf_temp_lb.png" alt="Filled Total Precipitation"/>
+                <div class="caption">celsius</div>
+        </div>
+        
+        <div class='legendContainer_wind'><div class="caption">celsius</div>
+        <div class='legendTitle_wind'>
+          <!--  <marquee>EASTWIND CONSULT wishes you a Merry Christmas and a Prosperous Happy 2023 !!!</marquee>     -->  
+          </div>
+          <div class='legendScale_wind'>
+            <ul class='legendLabel_wind'>          
+                <li><span style='background:#CCA0D8;'></span><br/><b>15</b></li>
+                <li><span style='background:#C08CD0;'></span><br/><b>16</b></li>
+                <li><span style='background:#B478CC;'></span><br/><b>17</b></li>
+                <li><span style='background:#A860C0;'></span><br/><b>18</b></li>
+                <li><span style='background:#17B400;'></span><br/><b>19</b></li>
+                <li><span style='background:#71D100;'></span><br/><b>20</b></li>
+                <li><span style='background:#B2EF00;'></span><br/><b>21</b></li>
+                <li><span style='background:#D1FF00;'></span><br/><b>22</b></li>
+                <li><span style='background:#F0FF0E;'></span><br/><b>23</b></li>
+                <li><span style='background:#FFFF00;'></span><br/><b>24</b></li>
+                <li><span style='background:#FFF000;'></span><br/><b>25</b></li>
+                <li><span style='background:#FFE200;'></span><br/><b>26</b></li>
+                <li><span style='background:#FFD400;'></span><br/><b>27</b></li>
+                <li><span style='background:#FFC600;'></span><br/><b>28</b></li>
+                <li><span style='background:#FFB700;'></span><br/><b>29</b></li>
+                <li><span style='background:#FFA900;'></span><br/><b>30</b></li>
+                <li><span style='background:#FF7000;'></span><br/><b>31</b></li>
+                <li><span style='background:#FF6200;'></span><br/><b>32</b></li>
+                <li><span style='background:#FF5400;'></span><br/><b>33</b></li>
+                <li><span style='background:#FF4600;'></span><br/><b>34</b></li>
+                <li><span style='background:#FF3800;'></span><br/><b>35</b></li>
+                <li><span style='background:#FF0E00;'></span><br/><b>36</b></li>
+                <li><span style='background:#EE0E00;'></span><br/><b>38</b></li>
+                <li><span style='background:#E80F0F;'></span><br/><b>40</b></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+     <script>
+
+             
+          var map = L.map('map').setView([8.50, -1.1], 6);
+
+              map.options.minZoom = 0;    
+
+              map.options.maxZoom = 20; // Reduce this for free editions  
+                  
+              const bounds = [
+                        [1.082608,-25.84559], // SouthWest Coordinates  2.282608,-17.84559
+                        [20.0386,25.04559] // NorthEast Coordinates  17.5386,15.44559
+                             ];
+
+    //	L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    //	L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+    //  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+      L.tileLayer('https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png', {
+
+            attribution: '<a href="https://web.facebook.com/eastwindconsult">EastwindConsult</a> | \
+            <a href="https://web.facebook.com/eastwindconsult">eastwindconsultintl@gmail.com</a> | \
+            &copy; <a href="https://tileserver.memomaps.de"> Memomaps</a> | \
+            <a href="https://leafletjs.com">Leaflet</a> '
+
+
+            }).addTo(map);	
+
+      map.attributionControl.setPrefix(''); 
+                    
+// files/kml/wrf_rainfall_201908070600.kml                          
+            var kmlLayer = new L.KML("/var/www/html/forecast/temp/2023032900/wrf_temp.kml", {async: true});
+//          var kmlLayer = new L.KML("/forecast/india/temp/2022112900/wrf_temp2m.kml", {async: true});
+
+            var mapKmlLayer = map.addLayer(kmlLayer);
+
+            map.setMaxBounds(bounds, {reset: true});
+
+            </script>
+            <script src="js/mykmlanimation2.js"></script>
+            <script src="js/record.js"></script>
+        </body>            
+</html>
