@@ -443,16 +443,21 @@ ul.legendLabel {
     text-align: center;
  }
  */
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+
 .legendContainer_wind {
-    display: inline-block;
-    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    position:absolute;
     text-align:center;
     left: 4.75%;
     top: 1%;
     padding: 0% ;
-    margin: 0%;
+    margin: 0% ;
     opacity: 0.75;
     width: 83%;
     background: white;
@@ -468,7 +473,10 @@ ul.legendLabel {
     border-top: 0.25vw solid rgb(8, 148, 230);
 }
 
-.legendContainer_wind  .legendTitle_wind  {
+.legendTitle_wind  {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
     width: 100%;
     text-align: left;
     left: 60%;
@@ -477,7 +485,10 @@ ul.legendLabel {
     font-size: 90%;
 }
 
-.legendContainer_wind  .legendScale_wind  ul {
+.legendScale_wind {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
     margin: 0;
     width: 100%;
     padding: 10px;
@@ -485,8 +496,12 @@ ul.legendLabel {
     list-style: none;
 }
 
-.legendContainer_wind  .legendScale_wind  ul li {
-    display: inline-block;
+
+.legendScale_wind  ul li {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    justify-content: center;
     float: left;
     width: 3.28%;
     margin-bottom: 0px;
@@ -496,90 +511,35 @@ ul.legendLabel {
 }
 
 .legendLabel_wind  b {
+    display: flex;
+    flex: auto;
+    flex-flow: row wrap;
     text-align: center;
     font-size: 2vh;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 ul.legendLabel_wind  {
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    flex-grow: 1;
+    justify-content: flex-start;
     float: left;
     height: 5%;
     width: 100%;
 }
 
-.legendContainer_wind  li span {
-    display: inline-block;
-    float: left;
-    height: 15px;
-    width: 100%;
-    text-align: center;
-    word-wrap: break-word;
-}
-
-.legendContainer_wind {
-    display: inline-block;
-    position: absolute;
-    text-align:center;
-    left: 4.75%;
-    top: 1%;
-    padding: 0% ;
-    margin: 0%;
-    opacity: 0.75;
-    width: 83%;
-    background: white;
-    z-index: 900;
-    border-style: none;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 12.5px;
-    border-top-left-radius: 12.5px;
-    border-right: 0.25vw  solid rgb(233, 233, 227);
-    border-bottom: 0.25vw  solid rgb(50, 161, 235);
-    border-left: 0.25vw  solid  rgb(233, 233, 227);
-    border-top: 0.25vw solid rgb(8, 148, 230);
-}
-
-.legendContainer_wind  .legendTitle_wind  {
-    width: 100%;
-    text-align: left;
-    left: 60%;
-    margin-bottom: 8px;
-    font-weight: bold;
-    font-size: 90%;
-}
-
-.legendContainer_wind  .legendScale_wind  ul {
-    margin: 0;
-    width: 100%;
-    padding: 10px;
-    float: left;
-    list-style: none;
-}
-
-.legendContainer_wind  .legendScale_wind  ul li {
-    display: inline-block;
-    float: left;
-    width: 3.28%;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 80%;
-    list-style: none;
-}
-
-.legendLabel_wind  b {
-    text-align: center;
-    font-size: 2vh;
-}
-
-ul.legendLabel_wind  {
-    display: inline-block;
-    float: left;
-    height: 5%;
-    width: 100%;
-}
-
-.legendContainer_wind  li span {
-    display: inline-block;
+.legendContainer_wind li span {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    flex: auto;
+    justify-content: flex-start;
     float: left;
     height: 15px;
     width: 100%;
