@@ -1,0 +1,3879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>A KML of dbz</name>
+<LookAt>
+  <longitude>-0.183</longitude>
+  <latitude>4.613</latitude>
+  <altitude>0</altitude>
+  <heading>0</heading>
+  <tilt>0</tilt>
+  <range>4.36334e+06</range>
+<altitudeMode>relativeToGround</altitudeMode>
+</LookAt>
+<Folder>
+<name>dbz</name>
+<GroundOverlay>
+<name>2023-04-03_00:00:00</name>
+<TimeSpan>
+<begin>2023-04-02T23:45Z</begin>
+<end>2023-04-03T00:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_00-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_00:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T00:00Z</begin>
+<end>2023-04-03T00:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_00-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_00:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T00:15Z</begin>
+<end>2023-04-03T00:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_00-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_00:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T00:30Z</begin>
+<end>2023-04-03T00:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_00-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_01:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T00:45Z</begin>
+<end>2023-04-03T01:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_01-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_01:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T01:00Z</begin>
+<end>2023-04-03T01:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_01-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_01:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T01:15Z</begin>
+<end>2023-04-03T01:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_01-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_01:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T01:30Z</begin>
+<end>2023-04-03T01:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_01-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_02:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T01:45Z</begin>
+<end>2023-04-03T02:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_02-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_02:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T02:00Z</begin>
+<end>2023-04-03T02:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_02-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_02:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T02:15Z</begin>
+<end>2023-04-03T02:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_02-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_02:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T02:30Z</begin>
+<end>2023-04-03T02:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_02-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_03:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T02:45Z</begin>
+<end>2023-04-03T03:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_03-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_03:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T03:00Z</begin>
+<end>2023-04-03T03:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_03-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_03:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T03:15Z</begin>
+<end>2023-04-03T03:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_03-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_03:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T03:30Z</begin>
+<end>2023-04-03T03:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_03-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_04:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T03:45Z</begin>
+<end>2023-04-03T04:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_04-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_04:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T04:00Z</begin>
+<end>2023-04-03T04:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_04-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_04:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T04:15Z</begin>
+<end>2023-04-03T04:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_04-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_04:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T04:30Z</begin>
+<end>2023-04-03T04:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_04-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_05:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T04:45Z</begin>
+<end>2023-04-03T05:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_05-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_05:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T05:00Z</begin>
+<end>2023-04-03T05:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_05-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_05:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T05:15Z</begin>
+<end>2023-04-03T05:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_05-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_05:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T05:30Z</begin>
+<end>2023-04-03T05:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_05-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_06:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T05:45Z</begin>
+<end>2023-04-03T06:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_06-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_06:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T06:00Z</begin>
+<end>2023-04-03T06:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_06-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_06:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T06:15Z</begin>
+<end>2023-04-03T06:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_06-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_06:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T06:30Z</begin>
+<end>2023-04-03T06:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_06-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_07:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T06:45Z</begin>
+<end>2023-04-03T07:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_07-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_07:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T07:00Z</begin>
+<end>2023-04-03T07:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_07-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_07:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T07:15Z</begin>
+<end>2023-04-03T07:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_07-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_07:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T07:30Z</begin>
+<end>2023-04-03T07:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_07-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_08:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T07:45Z</begin>
+<end>2023-04-03T08:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_08-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_08:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T08:00Z</begin>
+<end>2023-04-03T08:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_08-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_08:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T08:15Z</begin>
+<end>2023-04-03T08:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_08-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_08:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T08:30Z</begin>
+<end>2023-04-03T08:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_08-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_09:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T08:45Z</begin>
+<end>2023-04-03T09:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_09-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_09:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T09:00Z</begin>
+<end>2023-04-03T09:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_09-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_09:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T09:15Z</begin>
+<end>2023-04-03T09:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_09-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_09:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T09:30Z</begin>
+<end>2023-04-03T09:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_09-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_10:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T09:45Z</begin>
+<end>2023-04-03T10:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_10-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_10:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T10:00Z</begin>
+<end>2023-04-03T10:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_10-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_10:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T10:15Z</begin>
+<end>2023-04-03T10:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_10-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_10:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T10:30Z</begin>
+<end>2023-04-03T10:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_10-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_11:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T10:45Z</begin>
+<end>2023-04-03T11:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_11-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_11:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T11:00Z</begin>
+<end>2023-04-03T11:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_11-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_11:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T11:15Z</begin>
+<end>2023-04-03T11:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_11-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_11:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T11:30Z</begin>
+<end>2023-04-03T11:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_11-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_12:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T11:45Z</begin>
+<end>2023-04-03T12:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_12-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_12:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T12:00Z</begin>
+<end>2023-04-03T12:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_12-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_12:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T12:15Z</begin>
+<end>2023-04-03T12:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_12-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_12:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T12:30Z</begin>
+<end>2023-04-03T12:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_12-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_13:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T12:45Z</begin>
+<end>2023-04-03T13:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_13-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_13:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T13:00Z</begin>
+<end>2023-04-03T13:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_13-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_13:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T13:15Z</begin>
+<end>2023-04-03T13:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_13-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_13:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T13:30Z</begin>
+<end>2023-04-03T13:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_13-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_14:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T13:45Z</begin>
+<end>2023-04-03T14:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_14-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_14:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T14:00Z</begin>
+<end>2023-04-03T14:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_14-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_14:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T14:15Z</begin>
+<end>2023-04-03T14:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_14-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_14:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T14:30Z</begin>
+<end>2023-04-03T14:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_14-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_15:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T14:45Z</begin>
+<end>2023-04-03T15:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_15-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_15:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T15:00Z</begin>
+<end>2023-04-03T15:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_15-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_15:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T15:15Z</begin>
+<end>2023-04-03T15:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_15-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_15:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T15:30Z</begin>
+<end>2023-04-03T15:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_15-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_16:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T15:45Z</begin>
+<end>2023-04-03T16:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_16-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_16:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T16:00Z</begin>
+<end>2023-04-03T16:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_16-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_16:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T16:15Z</begin>
+<end>2023-04-03T16:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_16-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_16:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T16:30Z</begin>
+<end>2023-04-03T16:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_16-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_17:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T16:45Z</begin>
+<end>2023-04-03T17:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_17-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_17:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T17:00Z</begin>
+<end>2023-04-03T17:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_17-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_17:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T17:15Z</begin>
+<end>2023-04-03T17:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_17-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_17:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T17:30Z</begin>
+<end>2023-04-03T17:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_17-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_18:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T17:45Z</begin>
+<end>2023-04-03T18:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_18-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_18:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T18:00Z</begin>
+<end>2023-04-03T18:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_18-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_18:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T18:15Z</begin>
+<end>2023-04-03T18:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_18-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_18:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T18:30Z</begin>
+<end>2023-04-03T18:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_18-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_19:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T18:45Z</begin>
+<end>2023-04-03T19:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_19-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_19:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T19:00Z</begin>
+<end>2023-04-03T19:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_19-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_19:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T19:15Z</begin>
+<end>2023-04-03T19:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_19-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_19:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T19:30Z</begin>
+<end>2023-04-03T19:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_19-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_20:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T19:45Z</begin>
+<end>2023-04-03T20:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_20-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_20:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T20:00Z</begin>
+<end>2023-04-03T20:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_20-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_20:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T20:15Z</begin>
+<end>2023-04-03T20:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_20-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_20:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T20:30Z</begin>
+<end>2023-04-03T20:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_20-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_21:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T20:45Z</begin>
+<end>2023-04-03T21:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_21-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_21:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T21:00Z</begin>
+<end>2023-04-03T21:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_21-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_21:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T21:15Z</begin>
+<end>2023-04-03T21:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_21-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_21:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T21:30Z</begin>
+<end>2023-04-03T21:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_21-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_22:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T21:45Z</begin>
+<end>2023-04-03T22:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_22-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_22:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T22:00Z</begin>
+<end>2023-04-03T22:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_22-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_22:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T22:15Z</begin>
+<end>2023-04-03T22:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_22-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_22:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T22:30Z</begin>
+<end>2023-04-03T22:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_22-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_23:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T22:45Z</begin>
+<end>2023-04-03T23:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_23-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_23:15:00</name>
+<TimeSpan>
+<begin>2023-04-03T23:00Z</begin>
+<end>2023-04-03T23:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_23-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_23:30:00</name>
+<TimeSpan>
+<begin>2023-04-03T23:15Z</begin>
+<end>2023-04-03T23:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_23-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-03_23:45:00</name>
+<TimeSpan>
+<begin>2023-04-03T23:30Z</begin>
+<end>2023-04-03T23:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-03_23-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_00:00:00</name>
+<TimeSpan>
+<begin>2023-04-03T23:45Z</begin>
+<end>2023-04-04T00:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_00-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_00:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T00:00Z</begin>
+<end>2023-04-04T00:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_00-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_00:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T00:15Z</begin>
+<end>2023-04-04T00:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_00-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_00:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T00:30Z</begin>
+<end>2023-04-04T00:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_00-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_01:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T00:45Z</begin>
+<end>2023-04-04T01:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_01-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_01:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T01:00Z</begin>
+<end>2023-04-04T01:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_01-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_01:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T01:15Z</begin>
+<end>2023-04-04T01:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_01-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_01:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T01:30Z</begin>
+<end>2023-04-04T01:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_01-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_02:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T01:45Z</begin>
+<end>2023-04-04T02:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_02-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_02:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T02:00Z</begin>
+<end>2023-04-04T02:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_02-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_02:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T02:15Z</begin>
+<end>2023-04-04T02:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_02-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_02:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T02:30Z</begin>
+<end>2023-04-04T02:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_02-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_03:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T02:45Z</begin>
+<end>2023-04-04T03:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_03-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_03:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T03:00Z</begin>
+<end>2023-04-04T03:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_03-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_03:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T03:15Z</begin>
+<end>2023-04-04T03:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_03-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_03:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T03:30Z</begin>
+<end>2023-04-04T03:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_03-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_04:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T03:45Z</begin>
+<end>2023-04-04T04:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_04-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_04:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T04:00Z</begin>
+<end>2023-04-04T04:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_04-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_04:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T04:15Z</begin>
+<end>2023-04-04T04:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_04-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_04:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T04:30Z</begin>
+<end>2023-04-04T04:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_04-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_05:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T04:45Z</begin>
+<end>2023-04-04T05:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_05-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_05:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T05:00Z</begin>
+<end>2023-04-04T05:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_05-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_05:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T05:15Z</begin>
+<end>2023-04-04T05:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_05-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_05:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T05:30Z</begin>
+<end>2023-04-04T05:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_05-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_06:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T05:45Z</begin>
+<end>2023-04-04T06:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_06-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_06:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T06:00Z</begin>
+<end>2023-04-04T06:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_06-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_06:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T06:15Z</begin>
+<end>2023-04-04T06:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_06-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_06:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T06:30Z</begin>
+<end>2023-04-04T06:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_06-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_07:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T06:45Z</begin>
+<end>2023-04-04T07:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_07-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_07:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T07:00Z</begin>
+<end>2023-04-04T07:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_07-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_07:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T07:15Z</begin>
+<end>2023-04-04T07:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_07-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_07:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T07:30Z</begin>
+<end>2023-04-04T07:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_07-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_08:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T07:45Z</begin>
+<end>2023-04-04T08:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_08-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_08:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T08:00Z</begin>
+<end>2023-04-04T08:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_08-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_08:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T08:15Z</begin>
+<end>2023-04-04T08:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_08-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_08:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T08:30Z</begin>
+<end>2023-04-04T08:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_08-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_09:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T08:45Z</begin>
+<end>2023-04-04T09:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_09-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_09:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T09:00Z</begin>
+<end>2023-04-04T09:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_09-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_09:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T09:15Z</begin>
+<end>2023-04-04T09:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_09-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_09:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T09:30Z</begin>
+<end>2023-04-04T09:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_09-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_10:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T09:45Z</begin>
+<end>2023-04-04T10:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_10-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_10:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T10:00Z</begin>
+<end>2023-04-04T10:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_10-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_10:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T10:15Z</begin>
+<end>2023-04-04T10:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_10-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_10:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T10:30Z</begin>
+<end>2023-04-04T10:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_10-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_11:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T10:45Z</begin>
+<end>2023-04-04T11:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_11-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_11:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T11:00Z</begin>
+<end>2023-04-04T11:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_11-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_11:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T11:15Z</begin>
+<end>2023-04-04T11:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_11-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_11:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T11:30Z</begin>
+<end>2023-04-04T11:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_11-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_12:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T11:45Z</begin>
+<end>2023-04-04T12:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_12-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_12:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T12:00Z</begin>
+<end>2023-04-04T12:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_12-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_12:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T12:15Z</begin>
+<end>2023-04-04T12:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_12-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_12:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T12:30Z</begin>
+<end>2023-04-04T12:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_12-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_13:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T12:45Z</begin>
+<end>2023-04-04T13:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_13-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_13:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T13:00Z</begin>
+<end>2023-04-04T13:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_13-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_13:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T13:15Z</begin>
+<end>2023-04-04T13:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_13-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_13:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T13:30Z</begin>
+<end>2023-04-04T13:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_13-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_14:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T13:45Z</begin>
+<end>2023-04-04T14:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_14-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_14:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T14:00Z</begin>
+<end>2023-04-04T14:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_14-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_14:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T14:15Z</begin>
+<end>2023-04-04T14:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_14-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_14:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T14:30Z</begin>
+<end>2023-04-04T14:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_14-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_15:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T14:45Z</begin>
+<end>2023-04-04T15:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_15-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_15:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T15:00Z</begin>
+<end>2023-04-04T15:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_15-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_15:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T15:15Z</begin>
+<end>2023-04-04T15:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_15-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_15:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T15:30Z</begin>
+<end>2023-04-04T15:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_15-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_16:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T15:45Z</begin>
+<end>2023-04-04T16:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_16-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_16:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T16:00Z</begin>
+<end>2023-04-04T16:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_16-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_16:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T16:15Z</begin>
+<end>2023-04-04T16:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_16-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_16:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T16:30Z</begin>
+<end>2023-04-04T16:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_16-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_17:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T16:45Z</begin>
+<end>2023-04-04T17:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_17-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_17:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T17:00Z</begin>
+<end>2023-04-04T17:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_17-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_17:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T17:15Z</begin>
+<end>2023-04-04T17:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_17-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_17:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T17:30Z</begin>
+<end>2023-04-04T17:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_17-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_18:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T17:45Z</begin>
+<end>2023-04-04T18:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_18-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_18:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T18:00Z</begin>
+<end>2023-04-04T18:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_18-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_18:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T18:15Z</begin>
+<end>2023-04-04T18:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_18-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_18:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T18:30Z</begin>
+<end>2023-04-04T18:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_18-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_19:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T18:45Z</begin>
+<end>2023-04-04T19:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_19-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_19:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T19:00Z</begin>
+<end>2023-04-04T19:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_19-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_19:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T19:15Z</begin>
+<end>2023-04-04T19:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_19-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_19:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T19:30Z</begin>
+<end>2023-04-04T19:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_19-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_20:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T19:45Z</begin>
+<end>2023-04-04T20:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_20-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_20:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T20:00Z</begin>
+<end>2023-04-04T20:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_20-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_20:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T20:15Z</begin>
+<end>2023-04-04T20:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_20-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_20:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T20:30Z</begin>
+<end>2023-04-04T20:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_20-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_21:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T20:45Z</begin>
+<end>2023-04-04T21:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_21-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_21:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T21:00Z</begin>
+<end>2023-04-04T21:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_21-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_21:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T21:15Z</begin>
+<end>2023-04-04T21:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_21-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_21:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T21:30Z</begin>
+<end>2023-04-04T21:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_21-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_22:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T21:45Z</begin>
+<end>2023-04-04T22:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_22-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_22:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T22:00Z</begin>
+<end>2023-04-04T22:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_22-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_22:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T22:15Z</begin>
+<end>2023-04-04T22:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_22-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_22:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T22:30Z</begin>
+<end>2023-04-04T22:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_22-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_23:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T22:45Z</begin>
+<end>2023-04-04T23:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_23-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_23:15:00</name>
+<TimeSpan>
+<begin>2023-04-04T23:00Z</begin>
+<end>2023-04-04T23:15Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_23-15-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_23:30:00</name>
+<TimeSpan>
+<begin>2023-04-04T23:15Z</begin>
+<end>2023-04-04T23:30Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_23-30-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-04_23:45:00</name>
+<TimeSpan>
+<begin>2023-04-04T23:30Z</begin>
+<end>2023-04-04T23:45Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-04_23-45-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+<GroundOverlay>
+<name>2023-04-05_00:00:00</name>
+<TimeSpan>
+<begin>2023-04-04T23:45Z</begin>
+<end>2023-04-05T00:00Z</end>
+</TimeSpan>
+<color>7fffffff</color>
+<Icon>
+<href>/forecast/dbz/2023040300/wrf_dbz_2023-04-05_00-00-00.png</href>
+</Icon>
+<altitude>0</altitude>
+<altitudeMode>relativeToGround</altitudeMode>
+<LatLonBox>
+  <north>20.0416</north>
+  <south>-0.360901</south>
+  <east>20.2521</east>
+  <west>-19.7521</west>
+  <rotation>0</rotation>
+</LatLonBox>
+</GroundOverlay>
+</Folder>
+</Document>
+</kml>
+
