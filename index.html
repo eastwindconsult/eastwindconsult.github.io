@@ -1,112 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="EASTWIND CONSULT WEATHER - Interactive weather map showing precipitation, wind, and pressure">
-    <title>EASTWIND CONSULT WEATHER</title>
+<!-- This is written by Peter Nunekpeku | pnunekpeku5@gmail.com | eastwindconsultintl@gmail.com -->        
+<!--  modified 2022-06-30 UTC  -->
 
-    <!-- Leaflet CSS -->
-   <link rel="stylesheet" href="styles/leaflet.css" />
-   <link rel="stylesheet" href="styles/mykmlstyles2.css" />
-    
-</head>
-<body>
-    <div id="map">
-        <div class="controls-wrapper">
-        <div class="time-controls">
-            <div class="forecast-time">
-                <span id="fcstDate"></span>
-                <span id="fcstHour"></span>
-                <span id="fcstZone">UTC</span>
+<html>
+    <head>
+      <title>EASTWIND CONSULT WEATHER</title>
+
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="styles/leaflet.css" />
+      <link rel="stylesheet" href="styles/mykmlstyles2.css" />
+      
+      <!--[if lte IE 8]><link rel="stylesheet" href="leaflet/leaflet.ie.css" /><![endif]-->
+      
+      <script src="js/leaflet.js"></script>
+      
+      <!-- Bring in the leaflet KML plugin -->
+      <script src="js/KML.js"></script> 
+
+    </head>
+    <body>
+
+        <div id="map">      
+            <div class="button container"> 
+            <!-- Todo: uncomment the line below to show date and time at the header of page -->        
+            <!--        <li class="fslide"></li><li class="fslide"></li>  -->        
+            <div class="buttons">
+              <div>
+                  <ul id="fslides">
+                  <li class="fslide" id="fcstDate"></li>
+                  <li class="fslide" id="fcstHour"></li>
+                  <li class="fslide" id="fcstZone">UTC</li>
+                  <br>
+                  </ul>
+                  <br>
+              </div> 
+                          <button class="controls" id="previous">&lt;</button>
+                          <button class="controls" id="pause">&#10074;&#10074;</button>
+                          <button class="controls" id="next">&gt;</button>
+                  </div>
+                  <div>
+                    <button id="capture">Record Forecast</button>
+                  </div>
+                 
+                  <video class="video"></video>    
+              </div>
+
+              <div class="logo">
+                      <img src="images/eastwindconsult.png" alt="eastwindconsultlogo"/>
+              </div>
+
+              <div id="loader"></div> 
+
+          <div class='legendContainer'>
+            <div class='legendTitle'>
+      		<marquee  style="font-family:Book Antiqua; color: #f36d68" bgcolor="#000000" scrolldelay="90"> We will be launching our China & Australia sites soon !!!  Funded & run by Peter Nunekpeku </marquee> 
             </div>
-
-                <button class="controls" id="previous" aria-label="Previous">&lt;</button>
-                <button class="controls" id="pause" aria-label="Pause">&#10074;&#10074;</button>
-                <button class="controls" id="next" aria-label="Next">&gt;</button>
-            </div>
-            <button id="capture">Record Forecast</button>
-        </div>
-
-        <div class="logo">
-            <img src="images/eastwindconsult.png" alt="Eastwind Consult Logo">
-        </div>
-
-        <div id="loader">Loading...</div>
-
-        <div class="legend-container">
-            <div class="announcement">
-                <marquee scrolldelay="90">
-                    We will be launching our China & Australia sites soon! Funded & run by Peter Nunekpeku
-                </marquee>
-            </div>
-            <div class="legend-scale">
-                <ul>
-                    <li><span style="background:#F2EEF6"></span>Clear Sky</li>
-                    <li><span style="background:#40E0D0"></span>Partly Cloudy</li>
-                    <li><span style="background:#00bfff"></span>Drizzle</li>
-                    <li><span style="background:#68fa07"></span>Rain Showers</li>
-                    <li><span style="background:#FFD700"></span>Rain</li>
-                    <li><span style="background:#FF6347"></span>Heavy Rain</li>
-                    <li><span style="background:#B22222"></span>Thunderstorm</li>
+              <div class='legendScale'>
+                <ul class='legendLabel'>
+                  <li><span style='background:#F2EEF6;'></span><br/><b>Clear Sky</b></li>
+                  <li><span style='background:#40E0D0;'></span><br/><b>Partly Cloudy</b></li>
+                  <li><span style='background:#00bfff;'></span><br/><b>Drizzle</b></li>
+                  <li><span style='background:#68fa07'></span><br/><b>Rain Showers</b></li>
+                  <li><span style='background:#FFD700;'></span><br/><b>Rain</b></li>
+                  <li><span style='background:#FF6347;'></span><br/><b>Heavy Rain</b></li>
+                  <li><span style='background:#B22222;'></span><br/><b>Thunderstorm</b></li>
                 </ul>
+              </div>
             </div>
-        </div>
-    </div>
+          </div>
 
-    <!-- Scripts -->
-   <script src="js/leaflet.js"></script>
-    <script src="js/KML.js"></script>
+        <script>
 
-    <script>
-        // Map initialization
-        const map = L.map('map', {
-            center: [8.50, -1.1],
-            zoom: 6,
-            minZoom: 0,
-            maxZoom: 20,
-            maxBounds: [
-                [1.082608, -25.84559], // Southwest
-                [20.0386, 25.04559]    // Northeast
-            ],
-            maxBoundsViscosity: 1.0
-        });
+          var map = L.map('map').setView([8.50, -1.1], 6);
+          map.options.minZoom = 0;    
 
-        // Add tile layer
+          map.options.maxZoom = 20; // Reduce this for free editions  
+              
+          const bounds = [
+          [1.082608,-25.84559], // SouthWest Coordinates  2.282608,-17.84559
+          [20.0386,25.04559] // NorthEast Coordinates  17.5386,15.44559
+              ];
+
+    //	L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    //	L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+    //  L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
         L.tileLayer('https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png', {
-            attribution: `
-                <a href="https://web.facebook.com/eastwindconsult">EastwindConsult</a> | 
-                <a href="mailto:eastwindconsultintl@gmail.com">eastwindconsultintl@gmail.com</a> | 
-                &copy; <a href="https://tileserver.memomaps.de">Memomaps</a> | 
-                <a href="https://leafletjs.com">Leaflet</a>
-            `,
-            crossOrigin: true
-        }).addTo(map);
 
-        // Remove default prefix
-        map.attributionControl.setPrefix('');
+                    attribution: '<a href="https://web.facebook.com/eastwindconsult">EastwindConsult</a> | \
+                    <a href="https://web.facebook.com/eastwindconsult">eastwindconsultintl@gmail.com</a> | \
+                    &copy; <a href="https://tileserver.memomaps.de"> Memomaps</a> | \
+                    <a href="https://leafletjs.com">Leaflet</a> '
+                   
 
-        // Add KML Layer
-        async function loadKMLLayer() {
-            try {
-                document.body.classList.add('loading');
-                const kmlLayer = new L.KML("/forecast/precslpwind/2023040500/wrf_precslpwind.kml", {async: true});
-                await map.addLayer(kmlLayer);
-            } catch (error) {
-                console.error('Error loading KML layer:', error);
-            } finally {
-                document.body.classList.remove('loading');
-            }
-        }
+                }).addTo(map);	
+                
+                map.attributionControl.setPrefix(''); 
+                                        
+                // files/kml/wrf_rainfall_201908070600.kml                          
+                var kmlLayer = new L.KML("/forecast/precslpwind/2023040500/wrf_precslpwind.kml", {async: true});
+                
+                var mapKmlLayer = map.addLayer(kmlLayer);
 
-        loadKMLLayer();
+          map.setMaxBounds(bounds, {reset: true});
 
-        // Error handling for tile loading
-        map.on('tileerror', function(e) {
-            console.error('Tile loading error:', e);
-        });
-    </script>
-    <script src="js/mykmlanimation2.js"></script>
-    <script src="js/record.js"></script>
-</body>
+        </script>
+        <script src="js/mykmlanimation2.js"></script>
+        <script src="js/record.js"></script>
+    </body>            
 </html>
