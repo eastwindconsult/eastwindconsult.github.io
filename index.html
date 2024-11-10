@@ -133,11 +133,54 @@
         .loading #loader {
             display: block;
         }
+
+        .time-controls {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .forecast-time {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .forecast-time span {
+            margin: 0 5px;
+        }
+
+        .controls-wrapper {
+            margin: 10px 0;
+        }
+
+        .legend-container {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 8px;
+            z-index: 1000;
+        }
+
+        .announcement {
+            background: var(--background-dark);
+            color: var(--primary-color);
+            padding: 5px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <div id="map">
-        <div class="button-container">
+        <div class="time-controls">
             <div class="forecast-time">
                 <span id="fcstDate"></span>
                 <span id="fcstHour"></span>
@@ -158,7 +201,7 @@
         <div id="loader">Loading...</div>
 
         <div class="legend-container">
-            <div class="legend-title">
+            <div class="announcement">
                 <marquee scrolldelay="90">
                     We will be launching our China & Australia sites soon! Funded & run by Peter Nunekpeku
                 </marquee>
