@@ -7,7 +7,7 @@
     <title>EASTWIND CONSULT WEATHER</title>
 
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+   <link rel="stylesheet" href="styles/leaflet.css" />
     
     <style>
         :root {
@@ -240,12 +240,12 @@
 
         // Add tile layer
         L.tileLayer('https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png', {
-            attribution: `
+            attribution: '
                 <a href="https://web.facebook.com/eastwindconsult">EastwindConsult</a> |
                 <a href="mailto:eastwindconsultintl@gmail.com">eastwindconsultintl@gmail.com</a> |
                 &copy; <a href="https://tileserver.memomaps.de">Memomaps</a> |
                 <a href="https://leafletjs.com">Leaflet</a>
-            `,
+            ',
             crossOrigin: true
         }).addTo(map);
 
