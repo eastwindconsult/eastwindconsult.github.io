@@ -1,25 +1,27 @@
-/* Base Styles */
 body {
     opacity: 0;
 }
 
-/* Map Container */
 #map {
+    /* display: none; */
     width: 100%;
     height: 100%;
 }
 
-/* Leaflet Map Components */
 .leaflet-pane.leaflet-map-pane {
     border: transparent;
 }
 
-.leaflet-image-layer.leaflet-zoom-animated {
+
+img.leaflet-image-layer.leaflet-zoom-animated {
     background: transparent;
     z-index: 350;
-    max-width: none !important;
-    max-height: none !important;
+    max-width: 100%;
     min-width: 100%;
+/*    Filter: Chroma(Color = #FFFFFF);    */
+}
+
+img.leaflet-image-layer.leaflet-zoom-animated {
     -webkit-tap-highlight-color: transparent;
     cursor: grab;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -30,15 +32,19 @@ body {
     top: 0;
     transform-origin: 0 0;
     pointer-events: none;
+    max-width: none !important;
+    max-height: none !important;
     padding: 0;
+    background: transparent;
+    min-width: 100%;
+    z-index: 990;
     opacity: 0.50;
     transform: translate3d(2248px, 431px, 0px) rotate(0deg);
     width: 1053px;
     height: 1187px;
 }
 
-/* SVG Path Styles */
-.leaflet-pane.leaflet-map-pane .leaflet-pane.leaflet-overlay-pane svg g path.leaflet-interactive {
+.leaflet-pane.leaflet-map-pane .leaflet-pane.leaflet-overlay-pane  svg g path.leaflet-interactive  {   
     z-index: 1;
     -webkit-tap-highlight-color: transparent;
     stroke: rgb(222,59,203);
@@ -53,7 +59,95 @@ body {
     min-width: 100%;
 }
 
-/* Controls Container */
+/* CSS for svg */
+
+.leaflet-map-pane svg {
+    z-index: 950;
+    opacity: 0.6;
+}
+
+.leaflet-overlay-pane svg {
+    -moz-user-select: none;
+
+}
+
+img.leaflet-pane.leaflet-overlay-pane {
+
+    fill-opacity: 0;
+    fill: none;
+
+    stroke: none;
+    stroke-opacity: 0;
+
+    filter: chroma(color=#ffffff);
+
+    -webkit-tap-highlight-color: transparent;
+   
+    cursor: grab;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    max-width: none !important;
+    max-height: none !important;
+    padding: 0;
+    background: transparent;
+    min-width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(252px, -1615px, 0px) rotate(0deg);
+    width: 2105px;
+    height: 2375px;
+
+}
+
+img.leaflet-image-layer.leaflet-zoom-animated {
+
+    fill-opacity: 0;
+    fill: none;
+    filter: chroma(color=#ffffff);
+    -webkit-tap-highlight-color: transparent;
+    cursor: grab;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    max-width: none !important;
+    max-height: none !important;
+    padding: 0;
+    background: transparent;
+    min-width: 100%;
+    z-index: 990;
+    opacity: 1;
+    transform: translate3d(2248px, 431px, 0px) rotate(0deg);
+    width: 1053px;
+    height: 1187px;
+}
+
+
+path.leaflet-interactive {
+    -webkit-tap-highlight-color: transparent;
+    stroke: rgb(222,59,203);
+    stroke-opacity: 0.60;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    fill-opacity: 0.2;
+    fill-rule: evenodd;
+    z-index: 1;
+    max-width: 100%;
+    min-width: 100%;
+}
+
 .button.container {
     z-index: 900;
     height: 10%;
@@ -63,25 +157,23 @@ body {
     text-align: center;
 }
 
-/* Slides Container */
 #fslides {
     display: inline-block;
     position: absolute;
     left: 19%;
     height: 10px;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     opacity: 0.80;
     list-style-type: none;
     text-align: center;
     width: 65%;
 }
 
-/* Slide Items */
 .fslide {
     display: none;
     font-size: 15.75px;
-    padding: 0 5px;
+    padding: 0px 5px 0px 5px;
     box-sizing: border-box;
     background: #333;
     color: #fff;
@@ -90,260 +182,449 @@ body {
     text-align: center;
 }
 
-/* Forecast Elements */
-#fcstDate, #fcstHour, #fcstZone {
+ul#fslides {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    width: 65%;
+    height: fit-content;
+}
+
+li.fslide {
+    display: inline-block;
+    flex-flow: row wrap;
+    flex: auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 3vh;
+}
+#fcstDate {
+    display: inline-block;
+    flex-flow: row wrap;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 0%;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 10%;
+}
+
+#fcstHour {
+    display: inline-block;
+    flex-flow: row wrap;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 0%;
+    width: 10%;
+}
+
+#fcstZone {
     display: inline-block;
     flex-flow: row wrap;
     text-align: center;
     font-size: 2.5vh;
-    margin: 0;
-    width: 10%;
-}
-
-#fcstDate {
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
-#fcstZone {
+    margin: 0%;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     width: 5%;
 }
 
-/* Control Buttons */
+#previous {
+    width: 20%;
+    height:15%;
+    text-align: center;
+    font-size: 4vh;
+}
+
+#pause {
+    width: 20%;
+    height:15%;
+    text-align: center;
+    font-size: 4vh;
+}
+
+#next {
+    width: 20%;
+    height:15%;
+    text-align: center;
+    font-size: 4vh;    
+}
+
+.controls {
+    display: none;
+}
+
 .controls {
     z-index: 900;
     background: transparent;
     color: rgba(17, 11, 11, 0.733);
     border: transparent;
+  
     font-size: 30px;
     cursor: pointer;
-    margin: 10px 0 0 10px;
+
+    margin: 10px 0px 0px 10px;
+
     padding: 10px;
+    
     height: 50px;
     width: 100px;
+
+    background: transparent;
+
 }
 
 .controls:hover,
 .controls:focus {
     background: #333;
     color: #eee;
-    padding: 10px 0;
+    padding: 10px 0px;
     opacity: 0.65;
     border-radius: 15px;
     height: 1px;
     width: 100px;
 }
 
-/* Legend Styles */
+.buttons {
+    position: absolute;
+    bottom: 15%;
+    z-index: 800;
+    left: 0.0125%;
+    width: 30%;
+    height: 10%;
+    font-size: 2vh;
+}
+
+#capture  {
+    position: absolute;
+    bottom: 5%;
+    border-radius: 50px;
+
+    border-right: 0.25vw  solid rgb(236, 236, 51);
+    border-bottom: 0.25vw  solid rgb(245, 62, 62);
+    border-left: 0.25vw  solid rgb(8, 148, 230);
+    border-top: 0.25vw solid rgb(30, 173, 25);
+
+/*    background: rgba(156, 213, 218, 0.205);  */
+    background: rgba(185, 173, 173, 0.651);
+
+    z-index: 900;
+    left: 10.25%;
+    width:10%;
+    height: 6%;
+
+    text-align: center;
+    font-size: 2.125vh;
+}
+
+.video {
+    visibility: hidden;
+}
+
 .legendContainer {
     display: inline-block;
     position: absolute;
     text-align: left;
     left: 8.5%;
     top: 1%;
-    padding: 0;
-    margin: 0;
+    padding: 0% ;
+    margin: 0%;
     opacity: 0.75;
     width: 83%;
     background: white;
     z-index: 900;
     border-style: none;
-    border-radius: 25px;
-    border-right: 0.25vw solid rgb(236, 236, 51);
-    border-bottom: 0.25vw solid rgb(245, 62, 62);
-    border-left: 0.25vw solid rgb(8, 148, 230);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 12.5px;
+    border-top-left-radius: 12.5px;
+    border-right: 0.25vw  solid rgb(236, 236, 51);
+    border-bottom: 0.25vw  solid rgb(245, 62, 62);
+    border-left: 0.25vw  solid rgb(8, 148, 230);
     border-top: 0.25vw solid rgb(30, 173, 25);
 }
 
 .legendContainer .legendTitle {
     width: 100%;
     text-align: left;
+    left: 60%;
     margin-bottom: 8px;
     font-weight: bold;
     font-size: 90%;
 }
 
-/* Logo and Caption */
-.logo {
-    z-index: 900;
-    position: absolute;
-    left: 0;
-    bottom: 50%;
+.legendContainer .legendScale ul {
+    margin: 0;
     width: 100%;
-    opacity: 0.25;
-    background-color: transparent;
-    color: black;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.legendContainer .legendScale ul li {
+    display: inline-block;
+    float: left;
+    width: 14%;
+    margin-bottom: 0px;
     text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+
+.legendLabel b {
+    text-align: center;
+    font-size: 2vh;
+}
+
+ul.legendLabel {
+    display: inline-block;
+    float: left;
+    height: 5%;
+    width: 100%;
+}
+
+.legendContainer li span {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.logo {
+   z-index: 900;
+   position: absolute;
+   left: 0%;
+   bottom: 50%;
+   width: 100%;
+   opacity: 0.25;
+   background-color: transparent;
+   color: black;
+   text-align: center;
 }
 
 .logo img {
     width: 55px;
     height: 55px;
+    -webkit-tap-highlight-color: transparent;
+    cursor: grab;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
 }
+ 
+ .legend {
+    display: inline-flex;
+    z-index: 950;
+    position: absolute;
+    top: 16.5%;
+    left: 92%;
+    width:  20%;
+    height:  82%;
+    opacity: 0.85;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+ }
+ 
+
+ .legend img {
+    visibility: hidden;
+     width: 38%;
+     height: 85%;
+     -webkit-tap-highlight-color: transparent;
+     cursor: grab;
+     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+     font-size: 0.75rem;
+     line-height: 1.5;
+     color: black;
+     text-align: center;
+ }
 
 .caption {
     visibility: hidden;
     position: absolute;
     font-size: 1.05rem;
-    left: 0;
+    left: 0%;
     top: 42%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     z-index: 980;
 }
 
-:root {
-    --primary-color: #f36d68;
-    --background-dark: #000000;
+/*
+.legend  {
+    z-index: 950;
+    position:absolute ;
+    left: 91.25%;
+    top: 20%;
+    opacity: 0.95;
+    width: 100%;
+    height:80% ;
+    background-color: transparent;
+    text-align: center;
+ }
+ .legend img {
+    float: right;
+    width: 100%;
+    height: 60%;
+    -webkit-tap-highlight-color: transparent;
+    cursor: grab;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+ }
+ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.legendContainer_wind {
+    display: inline-block;
+    position: absolute;
+    text-align:center;
+    left: 4.75%;
+    top: 1%;
+    padding: 0% ;
+    margin: 0%;
+    opacity: 0.75;
+    width: 83%;
+    background: white;
+    z-index: 900;
+    border-style: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 12.5px;
+    border-top-left-radius: 12.5px;
+    border-right: 0.25vw  solid rgb(233, 233, 227);
+    border-bottom: 0.25vw  solid rgb(50, 161, 235);
+    border-left: 0.25vw  solid  rgb(233, 233, 227);
+    border-top: 0.25vw solid rgb(8, 148, 230);
 }
 
-* {
+.legendContainer_wind  .legendTitle_wind  {
+    width: 100%;
+    text-align: left;
+    left: 60%;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.legendContainer_wind  .legendScale_wind  ul {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-#map {
     width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-.button-container {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
     padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.forecast-time {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.controls {
-    padding: 8px 15px;
-    margin: 0 5px;
-    border: none;
-    border-radius: 4px;
-    background: #2b2b2b;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.controls:hover {
-    background: #404040;
-}
-
-#capture {
-    margin-top: 10px;
-    padding: 8px 15px;
-    width: 100%;
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.legend-container {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-radius: 8px;
-    z-index: 1000;
-}
-
-.legend-title {
-    margin-bottom: 10px;
-    padding: 5px;
-    background: var(--background-dark);
-    color: var(--primary-color);
-}
-
-.legend-scale ul {
+    float: left;
     list-style: none;
-    padding: 0;
 }
 
-.legend-scale li {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-}
-
-.legend-scale span {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    border-radius: 3px;
-}
-
-#loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1001;
-    display: none;
-}
-
-.loading #loader {
-    display: block;
-}
-
-.time-controls {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+.legendContainer_wind  .legendScale_wind  ul li {
+    display: inline-block;
+    float: left;
+    width: 3.28%;
+    margin-bottom: 0px;
     text-align: center;
+    font-size: 80%;
+    list-style: none;
 }
 
-.forecast-time {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+.legendLabel_wind  b {
+    text-align: center;
+    font-size: 2vh;
 }
 
-.forecast-time span {
-    margin: 0 5px;
+ul.legendLabel_wind  {
+    display: inline-block;
+    float: left;
+    height: 5%;
+    width: 100%;
 }
 
-.controls-wrapper {
-    margin: 10px 0;
+.legendContainer_wind  li span {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 }
 
-.legend-container {
+.legendContainer_wind {
+    display: inline-block;
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-radius: 8px;
-    z-index: 1000;
+    text-align:center;
+    left: 4.75%;
+    top: 1%;
+    padding: 0% ;
+    margin: 0%;
+    opacity: 0.75;
+    width: 83%;
+    background: white;
+    z-index: 900;
+    border-style: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 12.5px;
+    border-top-left-radius: 12.5px;
+    border-right: 0.25vw  solid rgb(233, 233, 227);
+    border-bottom: 0.25vw  solid rgb(50, 161, 235);
+    border-left: 0.25vw  solid  rgb(233, 233, 227);
+    border-top: 0.25vw solid rgb(8, 148, 230);
 }
 
-.announcement {
-    background: var(--background-dark);
-    color: var(--primary-color);
-    padding: 5px;
-    margin-bottom: 10px;
+.legendContainer_wind  .legendTitle_wind  {
+    width: 100%;
+    text-align: left;
+    left: 60%;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.legendContainer_wind  .legendScale_wind  ul {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.legendContainer_wind  .legendScale_wind  ul li {
+    display: inline-block;
+    float: left;
+    width: 3.28%;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+
+.legendLabel_wind  b {
+    text-align: center;
+    font-size: 2vh;
+}
+
+ul.legendLabel_wind  {
+    display: inline-block;
+    float: left;
+    height: 5%;
+    width: 100%;
+}
+
+.legendContainer_wind  li span {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 }
