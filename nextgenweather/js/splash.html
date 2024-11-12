@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+<html lang="en" class="desktop-view not-mobile-device text-size-normal anon">
+  <head>
+    <meta charset="utf-8">
+    <title>How to implement Full screen - How to implement? - OpenVidu</title>
+    <meta name="description" content="I’m just wondering how to implement a full screen button? 
+I don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream. 
+I’m assum&amp;hellip;">
+    <meta name="discourse_theme_id" content="3">
+    <meta name="discourse_current_homepage" content="categories">
+
+    <meta name="generator" content="Discourse 2.9.0.beta12 - https://github.com/discourse/discourse version 723f8239dfd190d2733f68c27b282d72be32e408">
+<link rel="icon" type="image/png" href="https://canada1.discourse-cdn.com/free1/uploads/openvidu/optimized/1X/dbabd0b747cabf50e84bd222bdbb0281b6c11d23_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://canada1.discourse-cdn.com/free1/uploads/openvidu/optimized/1X/ee7880b148202978d80991820064f9c39ada3530_2_180x180.png">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://openvidu.discourse.group/opensearch.xml" title="OpenVidu Search">
+
+    
+
+      <meta name="fragment" content="!">
+
+
+    
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/start-discourse-f633b2931f6e959c2cfecc4ee982bf48e1277532eaa9bf41022188dc6f494f31.br.js" as="script">
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/browser-update-d7761004034ce1ea7686d586f5e8a8d216e6f67b609f9b4bcaba53b8b8d34729.br.js" as="script">
+    <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/browser-detect-7af298cd000a967d2bdc01b04807eda2924a388584ea38ad84919b726283c2ed.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/browser-detect-7af298cd000a967d2bdc01b04807eda2924a388584ea38ad84919b726283c2ed.br.js"></script>
+
+
+    <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/locales/en-cd4341f6382d2b22b684051235a437e61e9eaa0eb2e45a2561a40c448eedf40e.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/locales/en-cd4341f6382d2b22b684051235a437e61e9eaa0eb2e45a2561a40c448eedf40e.br.js"></script>
+
+    <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/vendor-62b3627cb0982b79f652c1c27bede23eecf52db5ca7e3c34cb180d6a807d9973.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/vendor-62b3627cb0982b79f652c1c27bede23eecf52db5ca7e3c34cb180d6a807d9973.br.js"></script>
+
+<link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/chunk.857.56d820382a999c042add-c1e312a1811b20689490d467ec4a4b5e45958c4d6526bad9b4e59a117ab766d3.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/chunk.857.56d820382a999c042add-c1e312a1811b20689490d467ec4a4b5e45958c4d6526bad9b4e59a117ab766d3.br.js"></script>
+
+<link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/chunk.143.7ae21954b1f48d8e6d2c-0e81bd439cb86eaa4dc728bba682736f0f1d48df3179216e4f2fee6d06cae4c0.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/chunk.143.7ae21954b1f48d8e6d2c-0e81bd439cb86eaa4dc728bba682736f0f1d48df3179216e4f2fee6d06cae4c0.br.js"></script>
+
+    <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/discourse-e9dfc960d61bd8ab176687413550fde5db3373101d85e17ad9b526669379b26b.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/discourse-e9dfc960d61bd8ab176687413550fde5db3373101d85e17ad9b526669379b26b.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-adplugin-1086ea180d40e5cb86d0dbf09194e8c74d5b5ad49fd42a70588c8bf9afb5ecb4.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-adplugin-1086ea180d40e5cb86d0dbf09194e8c74d5b5ad49fd42a70588c8bf9afb5ecb4.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-akismet-8669eb5ee6a31b36e0fc975a33e15904983d810936323400dce5fcc55899baf6.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-akismet-8669eb5ee6a31b36e0fc975a33e15904983d810936323400dce5fcc55899baf6.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-cakeday-72f94490afc7b46098f7fdc9b505bd35efe5afe823e6f72014f27291a7944cf5.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-cakeday-72f94490afc7b46098f7fdc9b505bd35efe5afe823e6f72014f27291a7944cf5.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-checklist-6643db3f661d5db04ea867b8fecc8cc584f10fb976e9fe5cbd558ac0c62af6e2.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-checklist-6643db3f661d5db04ea867b8fecc8cc584f10fb976e9fe5cbd558ac0c62af6e2.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-details-07e91ea4324fc11f1e2725f3eb026f92f4a990d6a80ebf05dc882afbccd42a22.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-details-07e91ea4324fc11f1e2725f3eb026f92f4a990d6a80ebf05dc882afbccd42a22.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-footnote-c8f001185adf36289ec9b647b6f49918f397f42e98d63c0a88ef474d3aa850b1.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-footnote-c8f001185adf36289ec9b647b6f49918f397f42e98d63c0a88ef474d3aa850b1.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-footnote_extra-7f7bb8e0891106317fe6883ba187d239709a385df2c386a4d9ab105732204444.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-footnote_extra-7f7bb8e0891106317fe6883ba187d239709a385df2c386a4d9ab105732204444.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-local-dates-6e97812eed0e9de4d5051e87aa7621ca95eea3f1329c0558b1b696ada0af2920.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-local-dates-6e97812eed0e9de4d5051e87aa7621ca95eea3f1329c0558b1b696ada0af2920.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-narrative-bot-cbd8ce58efdeac85f62b2194b0a35d79e0b98958c19c473c75b32c4062ad15e8.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-narrative-bot-cbd8ce58efdeac85f62b2194b0a35d79e0b98958c19c473c75b32c4062ad15e8.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-presence-688a7d1516b5c2dd31f05f7f6373939ab545fe600f3ff258fa1ff27f8fc37623.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-presence-688a7d1516b5c2dd31f05f7f6373939ab545fe600f3ff258fa1ff27f8fc37623.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-solved-aec350448524b87c66eb6395a3e5dbcbb72d9f053b2161c4c1f922cd04b51851.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-solved-aec350448524b87c66eb6395a3e5dbcbb72d9f053b2161c4c1f922cd04b51851.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-spoiler-alert-6f9376cda953cc1e6f4074c650220f4a1c04e8f2e892cab8cf6521f5bd37078d.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/discourse-spoiler-alert-6f9376cda953cc1e6f4074c650220f4a1c04e8f2e892cab8cf6521f5bd37078d.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/hosted-site-96a51151c6c8c8b5f63891ccb831aed5c2eca33e340ddb8b1eb499fa583844dd.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/hosted-site-96a51151c6c8c8b5f63891ccb831aed5c2eca33e340ddb8b1eb499fa583844dd.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/hosted-site_admin-ad7ee61d4990c939017c92ab892a1dcd02cea7d0f4558badbc3143b675ddf49a.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/hosted-site_admin-ad7ee61d4990c939017c92ab892a1dcd02cea7d0f4558badbc3143b675ddf49a.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/lazy-yt-8412d6560c002ec84b5bc8ffdea0f809975a408c5350c1224d7f83476157f9e8.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/lazy-yt-8412d6560c002ec84b5bc8ffdea0f809975a408c5350c1224d7f83476157f9e8.br.js"></script>
+
+      <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/plugins/poll-625a7a450f0dda1f351a5c9534c9387d2a81b687b8fe913a456143ddac8c521d.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/plugins/poll-625a7a450f0dda1f351a5c9534c9387d2a81b687b8fe913a456143ddac8c521d.br.js"></script>
+
+
+
+
+      
+      
+      
+
+    
+    <meta id="data-ga-universal-analytics" data-tracking-code="UA-155367807-1" data-json="{&quot;cookieDomain&quot;:&quot;auto&quot;}" data-auto-link-domains="">
+
+  <link rel="preload" href="https://canada1.discourse-cdn.com/free1/assets/google-universal-analytics-v3-4195304cc8fc9564a86cfaf637f43e2582acbb938c5f563f03b3c967c4bf07a4.br.js" as="script">
+<script defer src="https://canada1.discourse-cdn.com/free1/assets/google-universal-analytics-v3-4195304cc8fc9564a86cfaf637f43e2582acbb938c5f563f03b3c967c4bf07a4.br.js"></script>
+
+
+    <link id="manifest-link" rel="manifest" href=/manifest.webmanifest crossorigin="use-credentials">
+
+
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;How to implement Full screen&#39;" href="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075.rss" />
+    <meta property="og:site_name" content="OpenVidu" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/ee7880b148202978d80991820064f9c39ada3530.png" />
+<meta property="og:image" content="https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/ee7880b148202978d80991820064f9c39ada3530.png" />
+<meta property="og:url" content="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075" />
+<meta name="twitter:url" content="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075" />
+<meta property="og:title" content="How to implement Full screen" />
+<meta name="twitter:title" content="How to implement Full screen" />
+<meta property="og:description" content="I’m just wondering how to implement a full screen button?  I don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream.  I’m assuming for example I would have to unpublish the publisher or subscriber respectively and republish with an option to set full screen? Just can’t find the option for it. I’m using openvidu browser 2.20 at the moment but will be upgrading to 2.22" />
+<meta name="twitter:description" content="I’m just wondering how to implement a full screen button?  I don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream.  I’m assuming for example I would have to unpublish the publisher or subscriber respectively and republish with an option to set full screen? Just can’t find the option for it. I’m using openvidu browser 2.20 at the moment but will be upgrading to 2.22" />
+<meta property="article:published_time" content="2022-07-06T12:48:17+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+
+    
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"How to implement Full screen","mainEntity":{"@type":"Question","name":"How to implement Full screen","text":"I’m just wondering how to implement a full screen button?\n\nI don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream.\n\nI’m assuming for example I would have to unpublish the publisher or subscriber respective&hellip;","upvoteCount":0,"answerCount":1,"dateCreated":"2022-07-06T12:48:17.751Z","author":{"@type":"Person","name":"Glen Elkins"},"acceptedAnswer":{"@type":"Answer","text":"Fullscreen is just a plain JS/CSS feature: <a href=\"https://www.w3schools.com/howto/howto_js_fullscreen.asp\" class=\"inline-onebox\">How To Change The Browser To Fullscreen with JavaScript<\/a>\n\nOpenVidu does not really intervene in this matter.","upvoteCount":0,"dateCreated":"2022-07-06T20:46:31.163Z","url":"https://openvidu.discourse.group/t/how-to-implement-full-screen/4075/2","author":{"@type":"Person","name":"pabloFuente"}}}}</script>
+
+    <meta id="data-discourse-setup" data-cdn="https://yyz1.discourse-cdn.com/free1" data-base-url="https://openvidu.discourse.group" data-base-uri="" data-environment="production" data-letter-avatar-version="5_684b749d1c1eee86b31a584fa946fc1a" data-markdown-it-url="https://canada1.discourse-cdn.com/free1/assets/markdown-it-bundle-64622e5747106d0157cc80a9ac3912b45d1129d1a10ec2cf42744f9298eaefd3.br.js" data-service-worker-url="service-worker.js" data-default-locale="en" data-asset-version="95e342a48a7630c2efe4ebbcb6c8c2f8" data-disable-custom-css="false" data-highlight-js-path="/highlight-js/openvidu.discourse.group/a5a82d5d9c93ba17b974dbe7408b61e64d7130b7.js" data-svg-sprite-path="/svg-sprite/openvidu.discourse.group/svg-3-689005df0b87eb297568ab17f0e613f5a41b9737.js" data-enable-js-error-reporting="true" data-color-scheme-is-dark="false" data-user-color-scheme-id="2" data-user-dark-scheme-id="-1" data-s3-cdn="https://canada1.discourse-cdn.com/free1" data-s3-base-url="//cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/free1">
+
+    <meta name="discourse/config/environment" content="%7B%22modulePrefix%22%3A%22discourse%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Afalse%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22discourse%22%2C%22version%22%3A%222.9.0.beta12%20723f8239dfd190d2733f68c27b282d72be32e408%22%2C%22exportApplicationGlobal%22%3Atrue%7D%7D" />
+  </head>
+
+  <body class="">
+      <section id="d-splash">
+  <template class="splash-svg-template">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+    >
+      <style>
+        :root {
+          --animation-state: paused;
+        }
+
+        /* user picked a theme where the "regular" scheme is dark */
+        /* user picked a theme a light scheme and also enabled a dark scheme */
+
+        /* deal with light scheme first */
+        @media (prefers-color-scheme: light) {
+          :root {
+            --primary: #222222;
+            --secondary: #ffffff;
+            --tertiary: #0088cc;
+            --quaternary: #e45735;
+            --highlight: #ffff4d;
+            --success: #009900;
+          }
+        }
+
+        /* then deal with dark scheme */
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --primary: #222222;
+            --secondary: #ffffff;
+            --tertiary: #0088cc;
+            --quaternary: #e45735;
+            --highlight: #ffff4d;
+            --success: #009900;
+          }
+        }
+
+        /* these styles need to live here because the SVG has a different scope */
+        .dots {
+          animation-name: loader;
+          animation-timing-function: ease-in-out;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-play-state: var(--animation-state);
+          stroke: #fff;
+          stroke-width: 0.5px;
+          transform-origin: center;
+          opacity: 0;
+          r: max(1vw, 11px);
+          cy: 50%;
+          filter: saturate(2) opacity(0.85);
+        }
+
+        .dots:first-child {
+          fill: var(--quaternary);
+        }
+
+        .dots:nth-child(2) {
+          fill: var(--quaternary);
+          animation-delay: 0.15s;
+        }
+
+        .dots:nth-child(3) {
+          fill: var(--highlight);
+          animation-delay: 0.3s;
+        }
+
+        .dots:nth-child(4) {
+          fill: var(--tertiary);
+          animation-delay: 0.45s;
+        }
+
+        .dots:nth-child(5) {
+          fill: var(--tertiary);
+          animation-delay: 0.6s;
+        }
+
+        @keyframes loader {
+          0% {
+            opacity: 0;
+            transform: scale(1);
+          }
+          45% {
+            opacity: 1;
+            transform: scale(0.7);
+          }
+          65% {
+            opacity: 1;
+            transform: scale(0.7);
+          }
+          100% {
+            opacity: 0;
+            transform: scale(1);
+          }
+        }
+      </style>
+
+      <g class="container">
+        <circle class="dots" cx="30vw" />
+        <circle class="dots" cx="40vw" />
+        <circle class="dots" cx="50vw" />
+        <circle class="dots" cx="60vw" />
+        <circle class="dots" cx="70vw" />
+      </g>
+    </svg>
+  </template>
+
+  <style>
+    html {
+      overflow-y: hidden !important;
+    }
+
+    /* user picked a theme where the "regular" scheme is dark */
+    /* user picked a theme a light scheme and also enabled a dark scheme */
+
+    /* deal with light scheme first */
+    @media (prefers-color-scheme: light) {
+      html {
+        background-color: #ffffff;
+      }
+
+      #d-splash .preloader-text-wrapper {
+        color: #222222;
+      }
+    }
+
+    /* then deal with dark scheme */
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #ffffff;
+      }
+
+      #d-splash .preloader-text-wrapper {
+        color: #222222;
+      }
+    }
+
+    #d-splash {
+      display: grid;
+      place-items: center;
+      backface-visibility: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 1001;
+      --animation-state: paused;
+    }
+
+    #d-splash .preloader-image {
+      max-width: 100%;
+      height: 100vh;
+    }
+
+    #d-splash .preloader-text-wrapper {
+      position: absolute;
+      opacity: 0;
+      animation: fade-in 0.5s ease-in-out;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      animation-play-state: var(--animation-state);
+      margin-bottom: -4em;
+    }
+
+    #d-splash .preloader-text:after {
+      animation: loading-text 3s infinite;
+      content: "";
+      position: absolute;
+      margin: 0 0.1em;
+      left: 100%;
+    }
+
+    .rtl #d-splash .preloader-text:after {
+      left: 0;
+      right: 100%;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes loading-text {
+      0% {
+        content: "";
+      }
+      25% {
+        content: ".";
+      }
+      50% {
+        content: "..";
+      }
+      75% {
+        content: "...";
+      }
+    }
+  </style>
+
+  <img
+    class="preloader-image"
+    src="data:image/svg;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    alt="OpenVidu"
+  />
+
+  <div class="preloader-text-wrapper">
+    <div class="preloader-text">Loading</div>
+  </div>
+
+  <noscript>
+    <style>
+      html {
+        overflow-y: revert !important;
+      }
+
+      #d-splash {
+        display: none;
+      }
+    </style>
+  </noscript>
+
+  <script>// This script is inlined in `_discourse_splash.html.erb
+const DELAY_TARGET = 2000;
+const POLLING_INTERVAL = 50;
+const splashSvgTemplate = document.querySelector(".splash-svg-template");
+const splashTemplateClone = splashSvgTemplate.content.cloneNode(true);
+const svgElement = splashTemplateClone.querySelector("svg");
+const svgString = new XMLSerializer().serializeToString(svgElement);
+const encodedSvg = btoa(svgString);
+const splashWrapper = document.querySelector("#d-splash");
+const splashImage = splashWrapper && splashWrapper.querySelector(".preloader-image");
+if (splashImage) {
+  splashImage.src = "data:image/svg+xml;base64,".concat(encodedSvg);
+  const connectStart = performance.timing.connectStart || 0;
+  const targetTime = connectStart + DELAY_TARGET;
+  let splashInterval;
+  let discourseReady;
+  const swapSplash = () => {
+    splashWrapper && splashWrapper.style.setProperty("--animation-state", "running");
+    svgElement && svgElement.style.setProperty("--animation-state", "running");
+    const newSvgString = new XMLSerializer().serializeToString(svgElement);
+    const newEncodedSvg = btoa(newSvgString);
+    splashImage.src = "data:image/svg+xml;base64,".concat(newEncodedSvg);
+    performance.mark("discourse-splash-visible");
+    clearSplashInterval();
+  };
+  const clearSplashInterval = () => {
+    clearInterval(splashInterval);
+    splashInterval = null;
+  };
+  (() => {
+    splashInterval = setInterval(() => {
+      if (discourseReady) {
+        clearSplashInterval();
+      }
+      if (Date.now() > targetTime) {
+        swapSplash();
+      }
+    }, POLLING_INTERVAL);
+  })();
+  document.addEventListener("discourse-ready", () => {
+    discourseReady = true;
+    splashWrapper && splashWrapper.remove();
+    performance.mark("discourse-splash-removed");
+  }, {
+    once: true
+  });
+}
+</script>
+
+</section>
+
+
+    <discourse-assets>
+      <discourse-assets-stylesheets>
+        <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/color_definitions_light_2_3_7665d5c124f2798890746e11e8ad564a4ef93202.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/desktop_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-adplugin_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-akismet_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-cakeday_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-checklist_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-details_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-footnote_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-local-dates_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-narrative-bot_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-presence_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-solved_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/discourse-spoiler-alert_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/hosted-site_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/lazy-yt_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/poll_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/poll_desktop_6423b9fe62464a5dfd74ccc1cd7d3ad18dbdcf4b.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://yyz1.discourse-cdn.com/free1/stylesheets/desktop_theme_3_8a3f09f2436c5b5a48cbb752efdc29a397d262ee.css?__ws=openvidu.discourse.group" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="light"/>
+
+      </discourse-assets-stylesheets>
+      <discourse-assets-json>
+        <div class="hidden" id="data-preloaded" data-preloaded="{&quot;site&quot;:&quot;{\&quot;default_archetype\&quot;:\&quot;regular\&quot;,\&quot;notification_types\&quot;:{\&quot;mentioned\&quot;:1,\&quot;replied\&quot;:2,\&quot;quoted\&quot;:3,\&quot;edited\&quot;:4,\&quot;liked\&quot;:5,\&quot;private_message\&quot;:6,\&quot;invited_to_private_message\&quot;:7,\&quot;invitee_accepted\&quot;:8,\&quot;posted\&quot;:9,\&quot;moved_post\&quot;:10,\&quot;linked\&quot;:11,\&quot;granted_badge\&quot;:12,\&quot;invited_to_topic\&quot;:13,\&quot;custom\&quot;:14,\&quot;group_mentioned\&quot;:15,\&quot;group_message_summary\&quot;:16,\&quot;watching_first_post\&quot;:17,\&quot;topic_reminder\&quot;:18,\&quot;liked_consolidated\&quot;:19,\&quot;post_approved\&quot;:20,\&quot;code_review_commit_approved\&quot;:21,\&quot;membership_request_accepted\&quot;:22,\&quot;membership_request_consolidated\&quot;:23,\&quot;bookmark_reminder\&quot;:24,\&quot;reaction\&quot;:25,\&quot;votes_released\&quot;:26,\&quot;event_reminder\&quot;:27,\&quot;event_invitation\&quot;:28,\&quot;chat_mention\&quot;:29,\&quot;chat_message\&quot;:30,\&quot;chat_invitation\&quot;:31,\&quot;chat_group_mention\&quot;:32,\&quot;chat_quoted\&quot;:33,\&quot;assigned\&quot;:34,\&quot;question_answer_user_commented\&quot;:35},\&quot;post_types\&quot;:{\&quot;regular\&quot;:1,\&quot;moderator_action\&quot;:2,\&quot;small_action\&quot;:3,\&quot;whisper\&quot;:4},\&quot;trust_levels\&quot;:{\&quot;newuser\&quot;:0,\&quot;basic\&quot;:1,\&quot;member\&quot;:2,\&quot;regular\&quot;:3,\&quot;leader\&quot;:4},\&quot;groups\&quot;:[],\&quot;filters\&quot;:[\&quot;latest\&quot;,\&quot;unread\&quot;,\&quot;new\&quot;,\&quot;unseen\&quot;,\&quot;top\&quot;,\&quot;read\&quot;,\&quot;posted\&quot;,\&quot;bookmarks\&quot;],\&quot;periods\&quot;:[\&quot;all\&quot;,\&quot;yearly\&quot;,\&quot;quarterly\&quot;,\&quot;monthly\&quot;,\&quot;weekly\&quot;,\&quot;daily\&quot;],\&quot;top_menu_items\&quot;:[\&quot;latest\&quot;,\&quot;unread\&quot;,\&quot;new\&quot;,\&quot;unseen\&quot;,\&quot;top\&quot;,\&quot;read\&quot;,\&quot;posted\&quot;,\&quot;bookmarks\&quot;,\&quot;categories\&quot;],\&quot;anonymous_top_menu_items\&quot;:[\&quot;latest\&quot;,\&quot;top\&quot;,\&quot;categories\&quot;,\&quot;categories\&quot;,\&quot;top\&quot;],\&quot;uncategorized_category_id\&quot;:1,\&quot;user_field_max_length\&quot;:2048,\&quot;post_action_types\&quot;:[{\&quot;id\&quot;:2,\&quot;name_key\&quot;:\&quot;like\&quot;,\&quot;name\&quot;:\&quot;Like\&quot;,\&quot;description\&quot;:\&quot;Like this post\&quot;,\&quot;short_description\&quot;:\&quot;Like this post\&quot;,\&quot;is_flag\&quot;:false,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:3,\&quot;name_key\&quot;:\&quot;off_topic\&quot;,\&quot;name\&quot;:\&quot;Off-Topic\&quot;,\&quot;description\&quot;:\&quot;This post is not relevant to the current discussion as defined by the title and first post, and should probably be moved elsewhere.\&quot;,\&quot;short_description\&quot;:\&quot;Not relevant to the discussion\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:4,\&quot;name_key\&quot;:\&quot;inappropriate\&quot;,\&quot;name\&quot;:\&quot;Inappropriate\&quot;,\&quot;description\&quot;:\&quot;This post contains content that a reasonable person would consider offensive, abusive, or a violation of \\u003ca href=\\\&quot;/guidelines\\\&quot;\\u003eour community guidelines\\u003c/a\\u003e.\&quot;,\&quot;short_description\&quot;:\&quot;A violation of \\u003ca href=\\\&quot;/guidelines\\\&quot;\\u003eour community guidelines\\u003c/a\\u003e\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:8,\&quot;name_key\&quot;:\&quot;spam\&quot;,\&quot;name\&quot;:\&quot;Spam\&quot;,\&quot;description\&quot;:\&quot;This post is an advertisement, or vandalism. It is not useful or relevant to the current topic.\&quot;,\&quot;short_description\&quot;:\&quot;This is an advertisement or vandalism\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:6,\&quot;name_key\&quot;:\&quot;notify_user\&quot;,\&quot;name\&quot;:\&quot;Send @%{username} a message\&quot;,\&quot;description\&quot;:\&quot;I want to talk to this person directly and personally about their post.\&quot;,\&quot;short_description\&quot;:\&quot;I want to talk to this person directly and personally about their post.\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:true},{\&quot;id\&quot;:null,\&quot;name_key\&quot;:null,\&quot;name\&quot;:\&quot;translation missing: en.post_action_types..title\&quot;,\&quot;description\&quot;:\&quot;translation missing: en.post_action_types.description\&quot;,\&quot;short_description\&quot;:\&quot;translation missing: en.post_action_types.short_description\&quot;,\&quot;is_flag\&quot;:false,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:7,\&quot;name_key\&quot;:\&quot;notify_moderators\&quot;,\&quot;name\&quot;:\&quot;Something Else\&quot;,\&quot;description\&quot;:\&quot;This post requires staff attention for another reason not listed above.\&quot;,\&quot;short_description\&quot;:\&quot;Requires staff attention for another reason\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:true}],\&quot;topic_flag_types\&quot;:[{\&quot;id\&quot;:4,\&quot;name_key\&quot;:\&quot;inappropriate\&quot;,\&quot;name\&quot;:\&quot;Inappropriate\&quot;,\&quot;description\&quot;:\&quot;This topic contains content that a reasonable person would consider offensive, abusive, or a violation of \\u003ca href=\\\&quot;/guidelines\\\&quot;\\u003eour community guidelines\\u003c/a\\u003e.\&quot;,\&quot;short_description\&quot;:\&quot;A violation of \\u003ca href=\\\&quot;/guidelines\\\&quot;\\u003eour community guidelines\\u003c/a\\u003e\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:8,\&quot;name_key\&quot;:\&quot;spam\&quot;,\&quot;name\&quot;:\&quot;Spam\&quot;,\&quot;description\&quot;:\&quot;This topic is an advertisement. It is not useful or relevant to this site, but promotional in nature.\&quot;,\&quot;short_description\&quot;:\&quot;This is an advertisement\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:null,\&quot;name_key\&quot;:null,\&quot;name\&quot;:\&quot;translation missing: en.topic_flag_types..title\&quot;,\&quot;description\&quot;:\&quot;translation missing: en.topic_flag_types.description\&quot;,\&quot;short_description\&quot;:\&quot;translation missing: en.topic_flag_types.short_description\&quot;,\&quot;is_flag\&quot;:false,\&quot;is_custom_flag\&quot;:false},{\&quot;id\&quot;:7,\&quot;name_key\&quot;:\&quot;notify_moderators\&quot;,\&quot;name\&quot;:\&quot;Something Else\&quot;,\&quot;description\&quot;:\&quot;This topic requires general staff attention based on the \\u003ca href=\\\&quot;/guidelines\\\&quot;\\u003eguidelines\\u003c/a\\u003e, \\u003ca href=\\\&quot;/tos\\\&quot;\\u003eTOS\\u003c/a\\u003e, or for another reason not listed above.\&quot;,\&quot;short_description\&quot;:\&quot;Requires staff attention for another reason\&quot;,\&quot;is_flag\&quot;:true,\&quot;is_custom_flag\&quot;:true}],\&quot;can_create_tag\&quot;:false,\&quot;can_tag_topics\&quot;:false,\&quot;can_tag_pms\&quot;:false,\&quot;tags_filter_regexp\&quot;:\&quot;[/\\\\?#\\\\[\\\\]@!\\\\$\\u0026&#39;\\\\(\\\\)\\\\*\\\\+,;=\\\\.%\\\\\\\\`^\\\\s|\\\\{\\\\}\\\&quot;\\u003c\\u003e]+\&quot;,\&quot;top_tags\&quot;:[\&quot;bug\&quot;],\&quot;topic_featured_link_allowed_category_ids\&quot;:[2,3,4,9,5,8,11,6,10,7,1],\&quot;user_themes\&quot;:[{\&quot;theme_id\&quot;:1,\&quot;name\&quot;:\&quot;Dark\&quot;,\&quot;default\&quot;:false,\&quot;color_scheme_id\&quot;:1},{\&quot;theme_id\&quot;:2,\&quot;name\&quot;:\&quot;Light\&quot;,\&quot;default\&quot;:false,\&quot;color_scheme_id\&quot;:null},{\&quot;theme_id\&quot;:3,\&quot;name\&quot;:\&quot;Light\&quot;,\&quot;default\&quot;:true,\&quot;color_scheme_id\&quot;:2}],\&quot;user_color_schemes\&quot;:[],\&quot;default_dark_color_scheme\&quot;:null,\&quot;censored_regexp\&quot;:[],\&quot;custom_emoji_translation\&quot;:{},\&quot;watched_words_replace\&quot;:null,\&quot;watched_words_link\&quot;:null,\&quot;categories\&quot;:[{\&quot;id\&quot;:10,\&quot;name\&quot;:\&quot;Announcements\&quot;,\&quot;color\&quot;:\&quot;0E76BD\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;announcements\&quot;,\&quot;topic_count\&quot;:24,\&quot;post_count\&quot;:64,\&quot;position\&quot;:0,\&quot;description\&quot;:\&quot;Here the OpenVidu team will publish announcements regarding releases and other important information about the project.\&quot;,\&quot;description_text\&quot;:\&quot;Here the OpenVidu team will publish announcements regarding releases and other important information about the project.\&quot;,\&quot;description_excerpt\&quot;:\&quot;Here the OpenVidu team will publish announcements regarding releases and other important information about the project.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-announcements-category/229\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:null},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:\&quot;\&quot;,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:5,\&quot;name\&quot;:\&quot;Issues with deployment\&quot;,\&quot;color\&quot;:\&quot;BF1E2E\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;openvidu-deployment\&quot;,\&quot;topic_count\&quot;:459,\&quot;post_count\&quot;:2667,\&quot;position\&quot;:1,\&quot;description\&quot;:\&quot;Use this category if you have any problem or questions deploying or configuring OpenVidu in AWS, other cloud provider or on premises.\&quot;,\&quot;description_text\&quot;:\&quot;Use this category if you have any problem or questions deploying or configuring OpenVidu in AWS, other cloud provider or on premises.\&quot;,\&quot;description_excerpt\&quot;:\&quot;Use this category if you have any problem or questions deploying or configuring OpenVidu in AWS, other cloud provider or on premises.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-issues-with-deployment-category/13\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:\&quot;true\&quot;},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:\&quot;\&quot;,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:7,\&quot;name\&quot;:\&quot;Issues developing apps\&quot;,\&quot;color\&quot;:\&quot;25AAE2\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;problems-developing-apps\&quot;,\&quot;topic_count\&quot;:929,\&quot;post_count\&quot;:4067,\&quot;position\&quot;:2,\&quot;description\&quot;:\&quot;If you have some problem when developing OpenVidu based apps ask here. Usually, problems are easy to solve with a bit of help.\&quot;,\&quot;description_text\&quot;:\&quot;If you have some problem when developing OpenVidu based apps ask here. Usually, problems are easy to solve with a bit of help.\&quot;,\&quot;description_excerpt\&quot;:\&quot;If you have some problem when developing OpenVidu based apps ask here. Usually, problems are easy to solve with a bit of help.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-problems-developing-openvidu-apps-category/16\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:\&quot;true\&quot;},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:\&quot;\&quot;,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:6,\&quot;name\&quot;:\&quot;How to implement?\&quot;,\&quot;color\&quot;:\&quot;F7941D\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;how-to-do-something-with-openvidu\&quot;,\&quot;topic_count\&quot;:458,\&quot;post_count\&quot;:1821,\&quot;position\&quot;:3,\&quot;description\&quot;:\&quot;If you want to implement some feature in your OpenVidu based application and you don’t know how to do it, ask here!\&quot;,\&quot;description_text\&quot;:\&quot;If you want to implement some feature in your OpenVidu based application and you don’t know how to do it, ask here!\&quot;,\&quot;description_excerpt\&quot;:\&quot;If you want to implement some feature in your OpenVidu based application and you don’t know how to do it, ask here!\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-how-to-implement-category/14\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:\&quot;true\&quot;},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:\&quot;\&quot;,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:11,\&quot;name\&quot;:\&quot;Request for enhancement\&quot;,\&quot;color\&quot;:\&quot;ED207B\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;request-for-feature\&quot;,\&quot;topic_count\&quot;:34,\&quot;post_count\&quot;:113,\&quot;position\&quot;:4,\&quot;description\&quot;:\&quot;In this category you can propose new features for OpenVidu.\&quot;,\&quot;description_text\&quot;:\&quot;In this category you can propose new features for OpenVidu.\&quot;,\&quot;description_excerpt\&quot;:\&quot;In this category you can propose new features for OpenVidu.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-request-for-enhancement-category/935\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:null},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:\&quot;\&quot;,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:2,\&quot;name\&quot;:\&quot;Site Feedback\&quot;,\&quot;color\&quot;:\&quot;808281\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;site-feedback\&quot;,\&quot;topic_count\&quot;:8,\&quot;post_count\&quot;:16,\&quot;position\&quot;:7,\&quot;description\&quot;:\&quot;Discussion about this site, its organization, how it works, and how we can improve it.\&quot;,\&quot;description_text\&quot;:\&quot;Discussion about this site, its organization, how it works, and how we can improve it.\&quot;,\&quot;description_excerpt\&quot;:\&quot;Discussion about this site, its organization, how it works, and how we can improve it.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/about-the-site-feedback-category/1\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:\&quot;true\&quot;},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:null,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false},{\&quot;id\&quot;:1,\&quot;name\&quot;:\&quot;Uncategorized\&quot;,\&quot;color\&quot;:\&quot;0088CC\&quot;,\&quot;text_color\&quot;:\&quot;FFFFFF\&quot;,\&quot;slug\&quot;:\&quot;uncategorized\&quot;,\&quot;topic_count\&quot;:0,\&quot;post_count\&quot;:0,\&quot;position\&quot;:10,\&quot;description\&quot;:\&quot;Topics that don&#39;t need a category, or don&#39;t fit into any other existing category.\&quot;,\&quot;description_text\&quot;:\&quot;Topics that don&#39;t need a category, or don&#39;t fit into any other existing category.\&quot;,\&quot;description_excerpt\&quot;:\&quot;Topics that don&#39;t need a category, or don&#39;t fit into any other existing category.\&quot;,\&quot;topic_url\&quot;:\&quot;/t/\&quot;,\&quot;read_restricted\&quot;:false,\&quot;permission\&quot;:null,\&quot;notification_level\&quot;:1,\&quot;topic_template\&quot;:\&quot;\&quot;,\&quot;has_children\&quot;:false,\&quot;sort_order\&quot;:\&quot;\&quot;,\&quot;sort_ascending\&quot;:null,\&quot;show_subcategory_list\&quot;:false,\&quot;num_featured_topics\&quot;:3,\&quot;default_view\&quot;:\&quot;\&quot;,\&quot;subcategory_list_style\&quot;:\&quot;rows_with_featured_topics\&quot;,\&quot;default_top_period\&quot;:\&quot;all\&quot;,\&quot;default_list_filter\&quot;:\&quot;all\&quot;,\&quot;minimum_required_tags\&quot;:0,\&quot;navigate_to_first_post_after_read\&quot;:false,\&quot;custom_fields\&quot;:{\&quot;has_chat_enabled\&quot;:null,\&quot;enable_accepted_answers\&quot;:\&quot;true\&quot;},\&quot;allowed_tags\&quot;:[],\&quot;allowed_tag_groups\&quot;:[],\&quot;allow_global_tags\&quot;:false,\&quot;read_only_banner\&quot;:null,\&quot;uploaded_logo\&quot;:null,\&quot;uploaded_logo_dark\&quot;:null,\&quot;uploaded_background\&quot;:null,\&quot;required_tag_groups\&quot;:[],\&quot;can_edit\&quot;:false}],\&quot;markdown_additional_options\&quot;:{\&quot;chat\&quot;:{\&quot;limited_pretty_text_features\&quot;:[\&quot;anchor\&quot;,\&quot;bbcode-block\&quot;,\&quot;bbcode-inline\&quot;,\&quot;code\&quot;,\&quot;category-hashtag\&quot;,\&quot;censored\&quot;,\&quot;chat-transcript\&quot;,\&quot;discourse-local-dates\&quot;,\&quot;emoji\&quot;,\&quot;emojiShortcuts\&quot;,\&quot;inlineEmoji\&quot;,\&quot;html-img\&quot;,\&quot;mentions\&quot;,\&quot;unicodeUsernames\&quot;,\&quot;onebox\&quot;,\&quot;quotes\&quot;,\&quot;spoiler-alert\&quot;,\&quot;table\&quot;,\&quot;text-post-process\&quot;,\&quot;upload-protocol\&quot;,\&quot;watched-words\&quot;],\&quot;limited_pretty_text_markdown_rules\&quot;:[\&quot;autolink\&quot;,\&quot;list\&quot;,\&quot;backticks\&quot;,\&quot;newline\&quot;,\&quot;code\&quot;,\&quot;fence\&quot;,\&quot;image\&quot;,\&quot;table\&quot;,\&quot;linkify\&quot;,\&quot;link\&quot;,\&quot;strikethrough\&quot;,\&quot;blockquote\&quot;,\&quot;emphasis\&quot;]}},\&quot;displayed_about_plugin_stat_groups\&quot;:[\&quot;chat_messages\&quot;],\&quot;show_welcome_topic_banner\&quot;:false,\&quot;house_creatives\&quot;:{\&quot;settings\&quot;:{\&quot;topic_list_top\&quot;:\&quot;\&quot;,\&quot;topic_above_post_stream\&quot;:\&quot;\&quot;,\&quot;topic_above_suggested\&quot;:\&quot;\&quot;,\&quot;post_bottom\&quot;:\&quot;\&quot;,\&quot;topic_list_between\&quot;:\&quot;\&quot;,\&quot;after_nth_post\&quot;:20,\&quot;after_nth_topic\&quot;:20,\&quot;house_ads_frequency\&quot;:100},\&quot;creatives\&quot;:{}},\&quot;hosting_tier\&quot;:\&quot;free\&quot;,\&quot;archetypes\&quot;:[{\&quot;id\&quot;:\&quot;regular\&quot;,\&quot;name\&quot;:\&quot;Regular Topic\&quot;,\&quot;options\&quot;:[]},{\&quot;id\&quot;:\&quot;banner\&quot;,\&quot;name\&quot;:\&quot;Banner Topic\&quot;,\&quot;options\&quot;:[]}],\&quot;user_fields\&quot;:[],\&quot;auth_providers\&quot;:[{\&quot;name\&quot;:\&quot;google_oauth2\&quot;,\&quot;custom_url\&quot;:null,\&quot;pretty_name_override\&quot;:null,\&quot;title_override\&quot;:null,\&quot;frame_width\&quot;:850,\&quot;frame_height\&quot;:500,\&quot;can_connect\&quot;:true,\&quot;can_revoke\&quot;:true,\&quot;icon\&quot;:null}]}&quot;,&quot;siteSettings&quot;:&quot;{\&quot;default_locale\&quot;:\&quot;en\&quot;,\&quot;title\&quot;:\&quot;OpenVidu\&quot;,\&quot;short_site_description\&quot;:\&quot;openvidu webrtc videoconference web apps mobile ipcamera realtime\&quot;,\&quot;exclude_rel_nofollow_domains\&quot;:\&quot;\&quot;,\&quot;logo\&quot;:\&quot;//cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/free1/uploads/openvidu/original/1X/aa3f506071bdf389835667cd2a7cb66640b38761.png\&quot;,\&quot;logo_small\&quot;:\&quot;//cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/free1/uploads/openvidu/original/1X/ee7880b148202978d80991820064f9c39ada3530.png\&quot;,\&quot;digest_logo\&quot;:\&quot;\&quot;,\&quot;mobile_logo\&quot;:\&quot;\&quot;,\&quot;logo_dark\&quot;:\&quot;\&quot;,\&quot;logo_small_dark\&quot;:\&quot;\&quot;,\&quot;mobile_logo_dark\&quot;:\&quot;\&quot;,\&quot;large_icon\&quot;:\&quot;\&quot;,\&quot;favicon\&quot;:\&quot;//cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/free1/uploads/openvidu/original/1X/dbabd0b747cabf50e84bd222bdbb0281b6c11d23.png\&quot;,\&quot;apple_touch_icon\&quot;:\&quot;\&quot;,\&quot;display_local_time_in_user_card\&quot;:false,\&quot;allow_user_locale\&quot;:false,\&quot;set_locale_from_accept_language_header\&quot;:false,\&quot;set_locale_from_cookie\&quot;:false,\&quot;support_mixed_text_direction\&quot;:false,\&quot;suggested_topics\&quot;:5,\&quot;ga_universal_tracking_code\&quot;:\&quot;UA-155367807-1\&quot;,\&quot;ga_universal_domain_name\&quot;:\&quot;auto\&quot;,\&quot;gtm_container_id\&quot;:\&quot;\&quot;,\&quot;top_menu\&quot;:\&quot;categories|latest|new|unread|top|read\&quot;,\&quot;post_menu\&quot;:\&quot;read|like|share|flag|edit|bookmark|delete|admin|reply\&quot;,\&quot;post_menu_hidden_items\&quot;:\&quot;flag|bookmark|edit|delete|admin\&quot;,\&quot;share_links\&quot;:\&quot;twitter|facebook|email\&quot;,\&quot;allow_username_in_share_links\&quot;:true,\&quot;share_quote_visibility\&quot;:\&quot;anonymous\&quot;,\&quot;share_quote_buttons\&quot;:\&quot;twitter|email\&quot;,\&quot;desktop_category_page_style\&quot;:\&quot;categories_and_latest_topics\&quot;,\&quot;category_colors\&quot;:\&quot;BF1E2E|F1592A|F7941D|9EB83B|3AB54A|12A89D|25AAE2|0E76BD|652D90|92278F|ED207B|8C6238|231F20|808281|B3B5B4|E45735\&quot;,\&quot;category_style\&quot;:\&quot;bullet\&quot;,\&quot;max_category_nesting\&quot;:2,\&quot;enable_mobile_theme\&quot;:true,\&quot;enable_direct_s3_uploads\&quot;:true,\&quot;enable_upload_debug_mode\&quot;:false,\&quot;default_dark_mode_color_scheme_id\&quot;:-1,\&quot;relative_date_duration\&quot;:30,\&quot;fixed_category_positions\&quot;:true,\&quot;fixed_category_positions_on_create\&quot;:false,\&quot;enable_badges\&quot;:true,\&quot;enable_badge_sql\&quot;:false,\&quot;max_favorite_badges\&quot;:2,\&quot;enable_whispers\&quot;:false,\&quot;whispers_allowed_groups\&quot;:\&quot;\&quot;,\&quot;enable_bookmarks_with_reminders\&quot;:true,\&quot;push_notifications_prompt\&quot;:true,\&quot;vapid_public_key_bytes\&quot;:\&quot;4|236|179|81|229|71|76|176|213|72|242|242|196|223|198|17|191|184|129|52|38|164|248|231|138|176|195|27|236|195|6|49|8|86|115|163|200|211|69|179|68|4|41|218|47|246|183|8|130|221|115|39|166|11|27|42|56|152|227|124|190|66|29|224|105\&quot;,\&quot;enable_user_status\&quot;:false,\&quot;enable_user_tips\&quot;:false,\&quot;invite_only\&quot;:false,\&quot;login_required\&quot;:false,\&quot;must_approve_users\&quot;:false,\&quot;enable_local_logins\&quot;:true,\&quot;enable_local_logins_via_email\&quot;:true,\&quot;allow_new_registrations\&quot;:true,\&quot;enable_signup_cta\&quot;:true,\&quot;facebook_app_id\&quot;:\&quot;\&quot;,\&quot;auth_skip_create_confirm\&quot;:false,\&quot;auth_overrides_email\&quot;:false,\&quot;enable_discourse_connect\&quot;:false,\&quot;discourse_connect_overrides_avatar\&quot;:false,\&quot;hide_email_address_taken\&quot;:false,\&quot;min_username_length\&quot;:3,\&quot;max_username_length\&quot;:20,\&quot;unicode_usernames\&quot;:false,\&quot;min_password_length\&quot;:10,\&quot;min_admin_password_length\&quot;:15,\&quot;email_editable\&quot;:true,\&quot;logout_redirect\&quot;:\&quot;\&quot;,\&quot;full_name_required\&quot;:false,\&quot;enable_names\&quot;:true,\&quot;invite_expiry_days\&quot;:90,\&quot;invites_per_page\&quot;:40,\&quot;delete_user_max_post_age\&quot;:60,\&quot;delete_all_posts_max\&quot;:15,\&quot;prioritize_username_in_ux\&quot;:true,\&quot;enable_user_directory\&quot;:true,\&quot;allow_anonymous_posting\&quot;:false,\&quot;anonymous_posting_min_trust_level\&quot;:1,\&quot;allow_users_to_hide_profile\&quot;:true,\&quot;hide_user_profiles_from_public\&quot;:false,\&quot;allow_featured_topic_on_user_profiles\&quot;:true,\&quot;hide_suspension_reasons\&quot;:false,\&quot;ignored_users_count_message_threshold\&quot;:5,\&quot;ignored_users_message_gap_days\&quot;:365,\&quot;user_selected_primary_groups\&quot;:false,\&quot;gravatar_name\&quot;:\&quot;Gravatar\&quot;,\&quot;gravatar_base_url\&quot;:\&quot;www.gravatar.com\&quot;,\&quot;gravatar_login_url\&quot;:\&quot;/emails\&quot;,\&quot;enable_group_directory\&quot;:true,\&quot;enable_category_group_moderation\&quot;:false,\&quot;min_post_length\&quot;:20,\&quot;min_first_post_length\&quot;:20,\&quot;min_personal_message_post_length\&quot;:10,\&quot;max_post_length\&quot;:32000,\&quot;topic_featured_link_enabled\&quot;:true,\&quot;min_topic_views_for_delete_confirm\&quot;:5000,\&quot;min_topic_title_length\&quot;:15,\&quot;max_topic_title_length\&quot;:255,\&quot;enable_filtered_replies_view\&quot;:false,\&quot;min_personal_message_title_length\&quot;:2,\&quot;allow_uncategorized_topics\&quot;:false,\&quot;min_title_similar_length\&quot;:10,\&quot;enable_personal_messages\&quot;:true,\&quot;personal_message_enabled_groups\&quot;:\&quot;11\&quot;,\&quot;edit_history_visible_to_public\&quot;:true,\&quot;delete_removed_posts_after\&quot;:24,\&quot;traditional_markdown_linebreaks\&quot;:false,\&quot;enable_markdown_typographer\&quot;:true,\&quot;enable_markdown_linkify\&quot;:true,\&quot;markdown_linkify_tlds\&quot;:\&quot;com|net|org|io|onion|co|tv|ru|cn|us|uk|me|de|fr|fi|gov\&quot;,\&quot;markdown_typographer_quotation_marks\&quot;:\&quot;“|”|‘|’\&quot;,\&quot;enable_rich_text_paste\&quot;:true,\&quot;suppress_reply_directly_below\&quot;:true,\&quot;suppress_reply_directly_above\&quot;:true,\&quot;max_reply_history\&quot;:3,\&quot;enable_mentions\&quot;:true,\&quot;here_mention\&quot;:\&quot;here\&quot;,\&quot;newuser_max_embedded_media\&quot;:1,\&quot;newuser_max_attachments\&quot;:0,\&quot;show_pinned_excerpt_mobile\&quot;:true,\&quot;show_pinned_excerpt_desktop\&quot;:true,\&quot;display_name_on_posts\&quot;:false,\&quot;show_time_gap_days\&quot;:7,\&quot;short_progress_text_threshold\&quot;:10000,\&quot;default_code_lang\&quot;:\&quot;auto\&quot;,\&quot;autohighlight_all_code\&quot;:false,\&quot;highlighted_languages\&quot;:\&quot;bash|c|cpp|csharp|css|diff|go|graphql|ini|java|javascript|json|kotlin|lua|makefile|markdown|objectivec|perl|php|php-template|plaintext|python|python-repl|r|ruby|rust|scss|shell|sql|swift|typescript|xml|yaml|wasm\&quot;,\&quot;show_copy_button_on_codeblocks\&quot;:false,\&quot;enable_emoji\&quot;:true,\&quot;enable_emoji_shortcuts\&quot;:true,\&quot;emoji_set\&quot;:\&quot;google\&quot;,\&quot;emoji_autocomplete_min_chars\&quot;:0,\&quot;enable_inline_emoji_translation\&quot;:false,\&quot;code_formatting_style\&quot;:\&quot;code-fences\&quot;,\&quot;allowed_href_schemes\&quot;:\&quot;\&quot;,\&quot;watched_words_regular_expressions\&quot;:false,\&quot;enable_diffhtml_preview\&quot;:false,\&quot;enable_fast_edit\&quot;:true,\&quot;old_post_notice_days\&quot;:14,\&quot;blur_tl0_flagged_posts_media\&quot;:true,\&quot;email_time_window_mins\&quot;:10,\&quot;disable_digest_emails\&quot;:false,\&quot;email_in\&quot;:false,\&quot;enable_imap\&quot;:false,\&quot;enable_smtp\&quot;:false,\&quot;disable_emails\&quot;:\&quot;no\&quot;,\&quot;bounce_score_threshold\&quot;:4,\&quot;enable_secondary_emails\&quot;:true,\&quot;max_image_size_kb\&quot;:4096,\&quot;max_attachment_size_kb\&quot;:8192,\&quot;authorized_extensions\&quot;:\&quot;jpg|jpeg|png|gif|heic|heif|webp\&quot;,\&quot;authorized_extensions_for_staff\&quot;:\&quot;\&quot;,\&quot;max_image_width\&quot;:690,\&quot;max_image_height\&quot;:500,\&quot;prevent_anons_from_downloading_files\&quot;:false,\&quot;secure_media\&quot;:false,\&quot;secure_uploads\&quot;:false,\&quot;enable_s3_uploads\&quot;:false,\&quot;allow_profile_backgrounds\&quot;:true,\&quot;allow_uploaded_avatars\&quot;:\&quot;0\&quot;,\&quot;default_avatars\&quot;:\&quot;\&quot;,\&quot;external_system_avatars_enabled\&quot;:true,\&quot;external_system_avatars_url\&quot;:\&quot;https://avatars.discourse-cdn.com/v4/letter/{first_letter}/{color}/{size}.png\&quot;,\&quot;external_emoji_url\&quot;:\&quot;https://emoji.discourse-cdn.com\&quot;,\&quot;selectable_avatars_mode\&quot;:\&quot;disabled\&quot;,\&quot;selectable_avatars\&quot;:\&quot;\&quot;,\&quot;allow_staff_to_upload_any_file_in_pm\&quot;:true,\&quot;simultaneous_uploads\&quot;:5,\&quot;composer_media_optimization_image_enabled\&quot;:true,\&quot;composer_media_optimization_image_bytes_optimization_threshold\&quot;:524288,\&quot;composer_media_optimization_image_resize_dimensions_threshold\&quot;:1920,\&quot;composer_media_optimization_image_resize_width_target\&quot;:1920,\&quot;composer_media_optimization_image_resize_pre_multiply\&quot;:false,\&quot;composer_media_optimization_image_resize_linear_rgb\&quot;:false,\&quot;composer_media_optimization_image_encode_quality\&quot;:75,\&quot;composer_media_optimization_debug_mode\&quot;:false,\&quot;min_trust_level_to_allow_profile_background\&quot;:0,\&quot;min_trust_level_to_allow_user_card_background\&quot;:0,\&quot;min_trust_level_to_allow_ignore\&quot;:2,\&quot;tl1_requires_read_posts\&quot;:30,\&quot;tl3_links_no_follow\&quot;:false,\&quot;enforce_second_factor\&quot;:\&quot;no\&quot;,\&quot;moderators_change_post_ownership\&quot;:false,\&quot;moderators_view_emails\&quot;:false,\&quot;use_admin_ip_allowlist\&quot;:false,\&quot;allowed_iframes\&quot;:\&quot;https://www.google.com/maps/embed?|https://www.openstreetmap.org/export/embed.html?|https://calendar.google.com/calendar/embed?|https://codepen.io/|https://openvidu.discourse.group/discobot/certificate.svg\&quot;,\&quot;can_permanently_delete\&quot;:false,\&quot;max_oneboxes_per_post\&quot;:50,\&quot;reviewable_claiming\&quot;:\&quot;disabled\&quot;,\&quot;reviewable_default_topics\&quot;:false,\&quot;reviewable_default_visibility\&quot;:\&quot;low\&quot;,\&quot;alert_admins_if_errors_per_minute\&quot;:0,\&quot;alert_admins_if_errors_per_hour\&quot;:0,\&quot;max_prints_per_hour_per_user\&quot;:5,\&quot;invite_link_max_redemptions_limit\&quot;:5000,\&quot;invite_link_max_redemptions_limit_users\&quot;:10,\&quot;enable_chunked_encoding\&quot;:true,\&quot;long_polling_base_url\&quot;:\&quot;/\&quot;,\&quot;background_polling_interval\&quot;:60000,\&quot;polling_interval\&quot;:3000,\&quot;anon_polling_interval\&quot;:25000,\&quot;flush_timings_secs\&quot;:60,\&quot;verbose_localization\&quot;:false,\&quot;max_new_topics\&quot;:500,\&quot;enable_safe_mode\&quot;:true,\&quot;enable_experimental_sidebar_hamburger\&quot;:false,\&quot;enable_experimental_hashtag_autocomplete\&quot;:false,\&quot;enable_new_user_profile_nav_groups\&quot;:\&quot;\&quot;,\&quot;enable_sidebar\&quot;:true,\&quot;default_sidebar_categories\&quot;:\&quot;\&quot;,\&quot;default_sidebar_tags\&quot;:\&quot;\&quot;,\&quot;tos_url\&quot;:\&quot;\&quot;,\&quot;privacy_policy_url\&quot;:\&quot;\&quot;,\&quot;faq_url\&quot;:\&quot;\&quot;,\&quot;enable_backups\&quot;:true,\&quot;backup_location\&quot;:\&quot;s3\&quot;,\&quot;maximum_backups\&quot;:3,\&quot;include_s3_uploads_in_backups\&quot;:false,\&quot;use_pg_headlines_for_excerpt\&quot;:false,\&quot;min_search_term_length\&quot;:3,\&quot;log_search_queries\&quot;:true,\&quot;version_checks\&quot;:false,\&quot;suppress_uncategorized_badge\&quot;:true,\&quot;header_dropdown_category_count\&quot;:8,\&quot;slug_generation_method\&quot;:\&quot;ascii\&quot;,\&quot;summary_timeline_button\&quot;:false,\&quot;topic_views_heat_low\&quot;:1000,\&quot;topic_views_heat_medium\&quot;:2000,\&quot;topic_views_heat_high\&quot;:3500,\&quot;topic_post_like_heat_low\&quot;:0.5,\&quot;topic_post_like_heat_medium\&quot;:1.0,\&quot;topic_post_like_heat_high\&quot;:2.0,\&quot;history_hours_low\&quot;:12,\&quot;history_hours_medium\&quot;:24,\&quot;history_hours_high\&quot;:48,\&quot;cold_age_days_low\&quot;:14,\&quot;cold_age_days_medium\&quot;:90,\&quot;cold_age_days_high\&quot;:180,\&quot;global_notice\&quot;:\&quot;\&quot;,\&quot;general_category_id\&quot;:-1,\&quot;default_composer_category\&quot;:\&quot;\&quot;,\&quot;show_create_topics_notice\&quot;:true,\&quot;welcome_topic_id\&quot;:7,\&quot;bootstrap_mode_min_users\&quot;:50,\&quot;bootstrap_mode_enabled\&quot;:false,\&quot;automatically_unpin_topics\&quot;:true,\&quot;read_time_word_count\&quot;:500,\&quot;topic_page_title_includes_category\&quot;:true,\&quot;svg_icon_subset\&quot;:\&quot;\&quot;,\&quot;allow_bulk_invite\&quot;:true,\&quot;use_polymorphic_bookmarks\&quot;:true,\&quot;suggest_weekends_in_date_pickers\&quot;:true,\&quot;disable_mailing_list_mode\&quot;:false,\&quot;default_topics_automatic_unpin\&quot;:true,\&quot;mute_all_categories_by_default\&quot;:false,\&quot;tagging_enabled\&quot;:true,\&quot;tag_style\&quot;:\&quot;box\&quot;,\&quot;max_tags_per_topic\&quot;:5,\&quot;max_tag_length\&quot;:20,\&quot;min_trust_level_to_tag_topics\&quot;:\&quot;staff\&quot;,\&quot;max_tag_search_results\&quot;:5,\&quot;max_tags_in_filter_list\&quot;:30,\&quot;tags_sort_alphabetically\&quot;:false,\&quot;tags_listed_by_group\&quot;:false,\&quot;pm_tags_allowed_for_groups\&quot;:\&quot;\&quot;,\&quot;suppress_overlapping_tags_in_list\&quot;:false,\&quot;remove_muted_tags_from_latest\&quot;:\&quot;always\&quot;,\&quot;force_lowercase_tags\&quot;:true,\&quot;dashboard_hidden_reports\&quot;:\&quot;\&quot;,\&quot;dashboard_visible_tabs\&quot;:\&quot;moderation|security|reports\&quot;,\&quot;dashboard_general_tab_activity_metrics\&quot;:\&quot;page_view_total_reqs|visits|time_to_first_response|likes|flags|user_to_user_private_messages_with_replies\&quot;,\&quot;details_enabled\&quot;:true,\&quot;poll_enabled\&quot;:true,\&quot;poll_maximum_options\&quot;:20,\&quot;poll_minimum_trust_level_to_create\&quot;:1,\&quot;poll_groupable_user_fields\&quot;:\&quot;\&quot;,\&quot;poll_export_data_explorer_query_id\&quot;:-16,\&quot;discourse_local_dates_email_format\&quot;:\&quot;YYYY-MM-DDTHH:mm:ss[Z]\&quot;,\&quot;discourse_local_dates_enabled\&quot;:true,\&quot;discourse_local_dates_default_formats\&quot;:\&quot;LLL|LTS|LL|LLLL\&quot;,\&quot;discourse_local_dates_default_timezones\&quot;:\&quot;Europe/Paris|America/Los_Angeles\&quot;,\&quot;presence_enabled\&quot;:true,\&quot;presence_max_users_shown\&quot;:5,\&quot;discourse_narrative_bot_enabled\&quot;:true,\&quot;discourse_adplugin_enabled\&quot;:true,\&quot;no_ads_for_personal_messages\&quot;:true,\&quot;no_ads_for_restricted_categories\&quot;:false,\&quot;no_ads_for_groups\&quot;:\&quot;\&quot;,\&quot;no_ads_for_categories\&quot;:\&quot;\&quot;,\&quot;no_ads_for_tags\&quot;:\&quot;\&quot;,\&quot;house_ads_after_nth_topic\&quot;:20,\&quot;house_ads_after_nth_post\&quot;:20,\&quot;house_ads_frequency\&quot;:100,\&quot;adsense_publisher_code\&quot;:\&quot;\&quot;,\&quot;adsense_through_trust_level\&quot;:2,\&quot;adsense_topic_list_top_code\&quot;:\&quot;\&quot;,\&quot;adsense_topic_list_top_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;adsense_mobile_topic_list_top_code\&quot;:\&quot;\&quot;,\&quot;adsense_mobile_topic_list_top_ad_size\&quot;:\&quot;responsive\&quot;,\&quot;adsense_topic_above_post_stream_code\&quot;:\&quot;\&quot;,\&quot;adsense_topic_above_post_stream_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;adsense_mobile_topic_above_post_stream_code\&quot;:\&quot;\&quot;,\&quot;adsense_mobile_topic_above_post_stream_ad_size\&quot;:\&quot;responsive\&quot;,\&quot;adsense_topic_above_suggested_code\&quot;:\&quot;\&quot;,\&quot;adsense_topic_above_suggested_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;adsense_mobile_topic_above_suggested_code\&quot;:\&quot;\&quot;,\&quot;adsense_mobile_topic_above_suggested_ad_size\&quot;:\&quot;responsive\&quot;,\&quot;adsense_post_bottom_code\&quot;:\&quot;\&quot;,\&quot;adsense_post_bottom_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;adsense_mobile_post_bottom_code\&quot;:\&quot;\&quot;,\&quot;adsense_mobile_post_bottom_ad_size\&quot;:\&quot;responsive\&quot;,\&quot;adsense_nth_post_code\&quot;:\&quot;\&quot;,\&quot;dfp_publisher_id\&quot;:\&quot;\&quot;,\&quot;dfp_publisher_id_mobile\&quot;:\&quot;\&quot;,\&quot;dfp_through_trust_level\&quot;:2,\&quot;dfp_topic_list_top_code\&quot;:\&quot;\&quot;,\&quot;dfp_topic_list_top_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;dfp_mobile_topic_list_top_code\&quot;:\&quot;\&quot;,\&quot;dfp_mobile_topic_list_top_ad_sizes\&quot;:\&quot;320*50 - mobile leaderboard\&quot;,\&quot;dfp_target_topic_list_top_key_code\&quot;:\&quot;\&quot;,\&quot;dfp_target_topic_list_top_value_code\&quot;:\&quot;\&quot;,\&quot;dfp_topic_above_post_stream_code\&quot;:\&quot;\&quot;,\&quot;dfp_topic_above_post_stream_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;dfp_mobile_topic_above_post_stream_code\&quot;:\&quot;\&quot;,\&quot;dfp_mobile_topic_above_post_stream_ad_sizes\&quot;:\&quot;320*50 - mobile leaderboard\&quot;,\&quot;dfp_target_topic_above_post_stream_key_code\&quot;:\&quot;\&quot;,\&quot;dfp_target_topic_above_post_stream_value_code\&quot;:\&quot;\&quot;,\&quot;dfp_topic_above_suggested_code\&quot;:\&quot;\&quot;,\&quot;dfp_topic_above_suggested_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;dfp_mobile_topic_above_suggested_code\&quot;:\&quot;\&quot;,\&quot;dfp_mobile_topic_above_suggested_ad_sizes\&quot;:\&quot;320*50 - mobile leaderboard\&quot;,\&quot;dfp_target_topic_above_suggested_key_code\&quot;:\&quot;\&quot;,\&quot;dfp_target_topic_above_suggested_value_code\&quot;:\&quot;\&quot;,\&quot;dfp_nth_post_code\&quot;:\&quot;\&quot;,\&quot;dfp_post_bottom_code\&quot;:\&quot;\&quot;,\&quot;dfp_post_bottom_ad_sizes\&quot;:\&quot;728*90 - leaderboard\&quot;,\&quot;dfp_mobile_post_bottom_code\&quot;:\&quot;\&quot;,\&quot;dfp_mobile_post_bottom_ad_sizes\&quot;:\&quot;320*50 - mobile leaderboard\&quot;,\&quot;dfp_target_post_bottom_key_code\&quot;:\&quot;\&quot;,\&quot;dfp_target_post_bottom_value_code\&quot;:\&quot;\&quot;,\&quot;amazon_through_trust_level\&quot;:2,\&quot;amazon_topic_list_top_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_list_top_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_list_top_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_list_top_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_list_top_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_list_top_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_post_stream_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_post_stream_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_post_stream_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_post_stream_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_post_stream_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_post_stream_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_suggested_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_suggested_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_topic_above_suggested_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_suggested_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_suggested_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_topic_above_suggested_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_post_bottom_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_nth_post_code\&quot;:\&quot;\&quot;,\&quot;amazon_post_bottom_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_post_bottom_ad_height_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_post_bottom_src_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_post_bottom_ad_width_code\&quot;:\&quot;\&quot;,\&quot;amazon_mobile_post_bottom_ad_height_code\&quot;:\&quot;\&quot;,\&quot;carbonads_serve_id\&quot;:\&quot;\&quot;,\&quot;carbonads_placement\&quot;:\&quot;\&quot;,\&quot;carbonads_through_trust_level\&quot;:2,\&quot;carbonads_topic_list_top_enabled\&quot;:false,\&quot;carbonads_above_post_stream_enabled\&quot;:false,\&quot;adbutler_publisher_id\&quot;:\&quot;\&quot;,\&quot;adbutler_through_trust_level\&quot;:2,\&quot;adbutler_topic_list_top_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_mobile_topic_list_top_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_topic_above_post_stream_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_mobile_topic_above_post_stream_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_topic_above_suggested_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_mobile_topic_above_suggested_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_post_bottom_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_mobile_post_bottom_zone_id\&quot;:\&quot;\&quot;,\&quot;adbutler_nth_post\&quot;:4,\&quot;adbutler_adserver_hostname\&quot;:\&quot;servedbyadbutler.com\&quot;,\&quot;patreon_enabled\&quot;:false,\&quot;patreon_login_enabled\&quot;:false,\&quot;patreon_donation_prompt_enabled\&quot;:false,\&quot;patreon_donation_prompt_show_after_topics\&quot;:20,\&quot;patreon_donation_prompt_campaign_url\&quot;:\&quot;\&quot;,\&quot;discourse_subscriptions_extra_nav_subscribe\&quot;:false,\&quot;discourse_subscriptions_public_key\&quot;:\&quot;\&quot;,\&quot;discourse_subscriptions_currency\&quot;:\&quot;USD\&quot;,\&quot;discourse_subscriptions_campaign_enabled\&quot;:false,\&quot;discourse_subscriptions_campaign_goal\&quot;:100,\&quot;discourse_subscriptions_campaign_type\&quot;:\&quot;Amount\&quot;,\&quot;discourse_subscriptions_campaign_banner_location\&quot;:\&quot;Top\&quot;,\&quot;discourse_subscriptions_campaign_banner_bg_image\&quot;:\&quot;\&quot;,\&quot;discourse_subscriptions_campaign_banner_shadow_color\&quot;:\&quot;2F70AC\&quot;,\&quot;discourse_subscriptions_campaign_show_contributors\&quot;:true,\&quot;discourse_subscriptions_campaign_product\&quot;:\&quot;\&quot;,\&quot;discourse_subscriptions_campaign_amount_raised\&quot;:0.0,\&quot;discourse_subscriptions_campaign_subscribers\&quot;:0,\&quot;hide_admin_customize_themes\&quot;:false,\&quot;hide_admin_customize_colors\&quot;:false,\&quot;discourse_math_enabled\&quot;:false,\&quot;discourse_math_provider\&quot;:\&quot;mathjax\&quot;,\&quot;discourse_math_zoom_on_hover\&quot;:false,\&quot;discourse_math_enable_accessibility\&quot;:false,\&quot;discourse_math_enable_asciimath\&quot;:false,\&quot;discourse_reactions_enabled\&quot;:false,\&quot;discourse_reactions_like_icon\&quot;:\&quot;heart\&quot;,\&quot;discourse_reactions_reaction_for_like\&quot;:\&quot;heart\&quot;,\&quot;discourse_reactions_enabled_reactions\&quot;:\&quot;+1|laughing|open_mouth|clap|confetti_ball|hugs\&quot;,\&quot;discourse_reactions_desaturated_reaction_panel\&quot;:false,\&quot;chat_enabled\&quot;:false,\&quot;chat_allowed_groups\&quot;:\&quot;3\&quot;,\&quot;chat_channel_retention_days\&quot;:90,\&quot;chat_max_direct_message_users\&quot;:20,\&quot;chat_dm_retention_days\&quot;:0,\&quot;chat_allow_archiving_channels\&quot;:false,\&quot;chat_default_channel_id\&quot;:\&quot;\&quot;,\&quot;default_emoji_reactions\&quot;:\&quot;+1|heart|tada\&quot;,\&quot;chat_minimum_message_length\&quot;:1,\&quot;chat_allow_uploads\&quot;:true,\&quot;max_chat_auto_joined_users\&quot;:10000,\&quot;direct_message_enabled_groups\&quot;:\&quot;11\&quot;,\&quot;chat_message_flag_allowed_groups\&quot;:\&quot;11\&quot;,\&quot;spoiler_enabled\&quot;:true,\&quot;enable_markdown_footnotes\&quot;:true,\&quot;display_footnotes_inline\&quot;:true,\&quot;yearly_review_enabled\&quot;:false,\&quot;docs_enabled\&quot;:false,\&quot;docs_categories\&quot;:\&quot;\&quot;,\&quot;docs_tags\&quot;:\&quot;\&quot;,\&quot;docs_add_solved_filter\&quot;:false,\&quot;docs_add_to_top_menu\&quot;:false,\&quot;cakeday_enabled\&quot;:true,\&quot;cakeday_emoji\&quot;:\&quot;cake\&quot;,\&quot;cakeday_birthday_enabled\&quot;:true,\&quot;cakeday_birthday_emoji\&quot;:\&quot;birthday\&quot;,\&quot;affiliate_enabled\&quot;:true,\&quot;affiliate_amazon_ca\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_cn\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_co_jp\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_co_uk\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_au\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_br\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_mx\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_de\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_es\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_fr\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_in\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_it\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_nl\&quot;:\&quot;\&quot;,\&quot;affiliate_ldlc_com\&quot;:\&quot;\&quot;,\&quot;checklist_enabled\&quot;:true,\&quot;solved_enabled\&quot;:true,\&quot;allow_solved_on_all_topics\&quot;:false,\&quot;accept_all_solutions_trust_level\&quot;:4,\&quot;empty_box_on_unsolved\&quot;:false,\&quot;show_filter_by_solved_status\&quot;:false,\&quot;available_locales\&quot;:\&quot;[{\\\&quot;name\\\&quot;:\\\&quot;اللغة العربية\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ar\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;беларуская мова\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;be\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;български език\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;bg\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;bosanski jezik\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;bs_BA\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;català\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ca\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;čeština\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;cs\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;dansk\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;da\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Deutsch\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;de\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;ελληνικά\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;el\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;English (US)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;en\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;English (UK)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;en_GB\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Español\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;es\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;eesti\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;et\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;فارسی\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fa_IR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;suomi\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fi\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Français\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;galego\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;gl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;עברית\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;he\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;hrvatski jezik\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;magyar\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hu\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Հայերեն\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hy\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Indonesian\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;id\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Italiano\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;it\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;日本語\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ja\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;한국어\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ko\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;lietuvių kalba\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;lt\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;latviešu valoda\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;lv\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Norsk bokmål\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;nb_NO\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Nederlands\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;nl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;polski\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pl_PL\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Português\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pt\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Português (BR)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pt_BR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;limba română\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ro\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Русский\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ru\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;slovenčina\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sk\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;slovenščina\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Shqip\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sq\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;српски језик\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;svenska\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sv\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Kiswahili\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sw\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;తెలుగు\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;te\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;ไทย\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;th\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Türkçe\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;tr_TR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;українська мова\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;uk\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;اردو\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ur\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Việt Nam\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;vi\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;简体中文\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;zh_CN\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;繁體中文\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;zh_TW\\\&quot;}]\&quot;,\&quot;require_invite_code\&quot;:false,\&quot;site_logo_url\&quot;:\&quot;https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/aa3f506071bdf389835667cd2a7cb66640b38761.png\&quot;,\&quot;site_logo_small_url\&quot;:\&quot;https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/ee7880b148202978d80991820064f9c39ada3530.png\&quot;,\&quot;site_mobile_logo_url\&quot;:\&quot;https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/aa3f506071bdf389835667cd2a7cb66640b38761.png\&quot;,\&quot;site_favicon_url\&quot;:\&quot;https://canada1.discourse-cdn.com/free1/uploads/openvidu/optimized/1X/dbabd0b747cabf50e84bd222bdbb0281b6c11d23_2_32x32.png\&quot;,\&quot;site_logo_dark_url\&quot;:\&quot;\&quot;,\&quot;site_logo_small_dark_url\&quot;:\&quot;\&quot;,\&quot;site_mobile_logo_dark_url\&quot;:\&quot;\&quot;}&quot;,&quot;customHTML&quot;:&quot;{\&quot;top\&quot;:\&quot;\&quot;,\&quot;footer\&quot;:\&quot;\&quot;}&quot;,&quot;banner&quot;:&quot;{}&quot;,&quot;customEmoji&quot;:&quot;[]&quot;,&quot;isReadOnly&quot;:&quot;false&quot;,&quot;isStaffWritesOnly&quot;:&quot;false&quot;,&quot;activatedThemes&quot;:&quot;{\&quot;3\&quot;:\&quot;Light\&quot;}&quot;,&quot;topic_4075&quot;:&quot;{\&quot;post_stream\&quot;:{\&quot;posts\&quot;:[{\&quot;id\&quot;:11458,\&quot;name\&quot;:\&quot;Glen Elkins\&quot;,\&quot;username\&quot;:\&quot;Glen_Elkins1\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/glen_elkins1/{size}/1975_2.png\&quot;,\&quot;created_at\&quot;:\&quot;2022-07-06T12:48:17.811Z\&quot;,\&quot;cooked\&quot;:\&quot;\\u003cp\\u003eI’m just wondering how to implement a full screen button?\\u003c/p\\u003e\\n\\u003cp\\u003eI don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream.\\u003c/p\\u003e\\n\\u003cp\\u003eI’m assuming for example I would have to unpublish the publisher or subscriber respectively and republish with an option to set full screen? Just can’t find the option for it. I’m using openvidu browser 2.20 at the moment but will be upgrading to 2.22\\u003c/p\\u003e\&quot;,\&quot;post_number\&quot;:1,\&quot;post_type\&quot;:1,\&quot;updated_at\&quot;:\&quot;2022-07-06T12:48:17.811Z\&quot;,\&quot;reply_count\&quot;:0,\&quot;reply_to_post_number\&quot;:null,\&quot;quote_count\&quot;:0,\&quot;incoming_link_count\&quot;:13,\&quot;reads\&quot;:6,\&quot;readers_count\&quot;:5,\&quot;score\&quot;:56.2,\&quot;yours\&quot;:false,\&quot;topic_id\&quot;:4075,\&quot;topic_slug\&quot;:\&quot;how-to-implement-full-screen\&quot;,\&quot;display_username\&quot;:\&quot;Glen Elkins\&quot;,\&quot;primary_group_name\&quot;:null,\&quot;flair_name\&quot;:null,\&quot;flair_url\&quot;:null,\&quot;flair_bg_color\&quot;:null,\&quot;flair_color\&quot;:null,\&quot;version\&quot;:1,\&quot;can_edit\&quot;:false,\&quot;can_delete\&quot;:false,\&quot;can_recover\&quot;:false,\&quot;can_wiki\&quot;:false,\&quot;read\&quot;:true,\&quot;user_title\&quot;:null,\&quot;bookmarked\&quot;:false,\&quot;actions_summary\&quot;:[],\&quot;moderator\&quot;:false,\&quot;admin\&quot;:false,\&quot;staff\&quot;:false,\&quot;user_id\&quot;:1166,\&quot;hidden\&quot;:false,\&quot;trust_level\&quot;:1,\&quot;deleted_at\&quot;:null,\&quot;user_deleted\&quot;:false,\&quot;edit_reason\&quot;:null,\&quot;can_view_edit_history\&quot;:true,\&quot;wiki\&quot;:false,\&quot;can_accept_answer\&quot;:false,\&quot;can_unaccept_answer\&quot;:false,\&quot;accepted_answer\&quot;:false},{\&quot;id\&quot;:11460,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;,\&quot;created_at\&quot;:\&quot;2022-07-06T20:46:31.163Z\&quot;,\&quot;cooked\&quot;:\&quot;\\u003cp\\u003eFullscreen is just a plain JS/CSS feature: \\u003ca href=\\\&quot;https://www.w3schools.com/howto/howto_js_fullscreen.asp\\\&quot; class=\\\&quot;inline-onebox\\\&quot;\\u003eHow To Change The Browser To Fullscreen with JavaScript\\u003c/a\\u003e\\u003cbr\\u003e\\nOpenVidu does not really intervene in this matter.\\u003c/p\\u003e\&quot;,\&quot;post_number\&quot;:2,\&quot;post_type\&quot;:1,\&quot;updated_at\&quot;:\&quot;2022-07-06T20:46:31.163Z\&quot;,\&quot;reply_count\&quot;:0,\&quot;reply_to_post_number\&quot;:null,\&quot;quote_count\&quot;:0,\&quot;incoming_link_count\&quot;:0,\&quot;reads\&quot;:6,\&quot;readers_count\&quot;:5,\&quot;score\&quot;:1.2,\&quot;yours\&quot;:false,\&quot;topic_id\&quot;:4075,\&quot;topic_slug\&quot;:\&quot;how-to-implement-full-screen\&quot;,\&quot;display_username\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;primary_group_name\&quot;:null,\&quot;flair_name\&quot;:null,\&quot;flair_url\&quot;:null,\&quot;flair_bg_color\&quot;:null,\&quot;flair_color\&quot;:null,\&quot;version\&quot;:1,\&quot;can_edit\&quot;:false,\&quot;can_delete\&quot;:false,\&quot;can_recover\&quot;:false,\&quot;can_wiki\&quot;:false,\&quot;link_counts\&quot;:[{\&quot;url\&quot;:\&quot;https://www.w3schools.com/howto/howto_js_fullscreen.asp\&quot;,\&quot;internal\&quot;:false,\&quot;reflection\&quot;:false,\&quot;title\&quot;:\&quot;How To Change The Browser To Fullscreen with JavaScript\&quot;,\&quot;clicks\&quot;:6}],\&quot;read\&quot;:true,\&quot;user_title\&quot;:\&quot;OpenVidu developer\&quot;,\&quot;title_is_group\&quot;:false,\&quot;bookmarked\&quot;:false,\&quot;actions_summary\&quot;:[],\&quot;moderator\&quot;:true,\&quot;admin\&quot;:false,\&quot;staff\&quot;:true,\&quot;user_id\&quot;:13,\&quot;hidden\&quot;:false,\&quot;trust_level\&quot;:2,\&quot;deleted_at\&quot;:null,\&quot;user_deleted\&quot;:false,\&quot;edit_reason\&quot;:null,\&quot;can_view_edit_history\&quot;:true,\&quot;wiki\&quot;:false,\&quot;can_accept_answer\&quot;:false,\&quot;can_unaccept_answer\&quot;:false,\&quot;accepted_answer\&quot;:true}],\&quot;stream\&quot;:[11458,11460]},\&quot;timeline_lookup\&quot;:[[1,136]],\&quot;suggested_topics\&quot;:[{\&quot;id\&quot;:3649,\&quot;title\&quot;:\&quot;Display Network Bandwidth During Video Streaming\&quot;,\&quot;fancy_title\&quot;:\&quot;Display Network Bandwidth During Video Streaming\&quot;,\&quot;slug\&quot;:\&quot;display-network-bandwidth-during-video-streaming\&quot;,\&quot;posts_count\&quot;:6,\&quot;reply_count\&quot;:4,\&quot;highest_post_number\&quot;:6,\&quot;image_url\&quot;:\&quot;https://canada1.discourse-cdn.com/free1/uploads/openvidu/optimized/2X/b/b51f3e706088124ea2f822f4f45b75ee4addd7d2_2_1024x289.png\&quot;,\&quot;created_at\&quot;:\&quot;2021-12-02T09:27:48.772Z\&quot;,\&quot;last_posted_at\&quot;:\&quot;2021-12-03T11:58:14.625Z\&quot;,\&quot;bumped\&quot;:true,\&quot;bumped_at\&quot;:\&quot;2021-12-03T12:08:41.691Z\&quot;,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;unseen\&quot;:false,\&quot;pinned\&quot;:false,\&quot;unpinned\&quot;:null,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;bookmarked\&quot;:null,\&quot;liked\&quot;:null,\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;like_count\&quot;:0,\&quot;views\&quot;:172,\&quot;category_id\&quot;:6,\&quot;featured_link\&quot;:null,\&quot;has_accepted_answer\&quot;:false,\&quot;posters\&quot;:[{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Original Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:1009,\&quot;username\&quot;:\&quot;Rohit_Singh\&quot;,\&quot;name\&quot;:\&quot;Rohit Singh\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/rohit_singh/{size}/1714_2.png\&quot;}},{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Frequent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;}},{\&quot;extras\&quot;:\&quot;latest\&quot;,\&quot;description\&quot;:\&quot;Most Recent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:3,\&quot;username\&quot;:\&quot;cruizba\&quot;,\&quot;name\&quot;:\&quot;Carlos Ruiz Ballesteros\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/cruizba/{size}/18_2.png\&quot;}}]},{\&quot;id\&quot;:3795,\&quot;title\&quot;:\&quot;Simultaneous OpenVidu.fetch() calls leading to timeouts/crashes, best way to keep track of sessions across multiple server nodes/instances?\&quot;,\&quot;fancy_title\&quot;:\&quot;Simultaneous OpenVidu.fetch() calls leading to timeouts/crashes, best way to keep track of sessions across multiple server nodes/instances?\&quot;,\&quot;slug\&quot;:\&quot;simultaneous-openvidu-fetch-calls-leading-to-timeouts-crashes-best-way-to-keep-track-of-sessions-across-multiple-server-nodes-instances\&quot;,\&quot;posts_count\&quot;:3,\&quot;reply_count\&quot;:1,\&quot;highest_post_number\&quot;:3,\&quot;image_url\&quot;:null,\&quot;created_at\&quot;:\&quot;2022-03-13T00:50:36.214Z\&quot;,\&quot;last_posted_at\&quot;:\&quot;2022-03-14T17:29:08.749Z\&quot;,\&quot;bumped\&quot;:true,\&quot;bumped_at\&quot;:\&quot;2022-03-14T17:29:08.749Z\&quot;,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;unseen\&quot;:false,\&quot;pinned\&quot;:false,\&quot;unpinned\&quot;:null,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;bookmarked\&quot;:null,\&quot;liked\&quot;:null,\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;like_count\&quot;:0,\&quot;views\&quot;:114,\&quot;category_id\&quot;:6,\&quot;featured_link\&quot;:null,\&quot;has_accepted_answer\&quot;:true,\&quot;posters\&quot;:[{\&quot;extras\&quot;:\&quot;latest\&quot;,\&quot;description\&quot;:\&quot;Original Poster, Most Recent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:38,\&quot;username\&quot;:\&quot;phil917\&quot;,\&quot;name\&quot;:\&quot;Philip Schaffer\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/phil917/{size}/58_2.png\&quot;}},{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Frequent Poster, Accepted Answer\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;}}]},{\&quot;id\&quot;:3836,\&quot;title\&quot;:\&quot;Auto join on room created\&quot;,\&quot;fancy_title\&quot;:\&quot;Auto join on room created\&quot;,\&quot;slug\&quot;:\&quot;auto-join-on-room-created\&quot;,\&quot;posts_count\&quot;:3,\&quot;reply_count\&quot;:1,\&quot;highest_post_number\&quot;:3,\&quot;image_url\&quot;:null,\&quot;created_at\&quot;:\&quot;2022-03-24T12:52:55.082Z\&quot;,\&quot;last_posted_at\&quot;:\&quot;2022-03-25T09:56:25.227Z\&quot;,\&quot;bumped\&quot;:true,\&quot;bumped_at\&quot;:\&quot;2022-03-25T09:56:25.227Z\&quot;,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;unseen\&quot;:false,\&quot;pinned\&quot;:false,\&quot;unpinned\&quot;:null,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;bookmarked\&quot;:null,\&quot;liked\&quot;:null,\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;like_count\&quot;:1,\&quot;views\&quot;:97,\&quot;category_id\&quot;:6,\&quot;featured_link\&quot;:null,\&quot;has_accepted_answer\&quot;:true,\&quot;posters\&quot;:[{\&quot;extras\&quot;:\&quot;latest\&quot;,\&quot;description\&quot;:\&quot;Original Poster, Most Recent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:1096,\&quot;username\&quot;:\&quot;Alexey_Maslov\&quot;,\&quot;name\&quot;:\&quot;Alexey Maslov\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/alexey_maslov/{size}/1874_2.png\&quot;}},{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Frequent Poster, Accepted Answer\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;}}]},{\&quot;id\&quot;:3722,\&quot;title\&quot;:\&quot;Maximum Users in WEBINAR\&quot;,\&quot;fancy_title\&quot;:\&quot;Maximum Users in WEBINAR\&quot;,\&quot;slug\&quot;:\&quot;maximum-users-in-webinar\&quot;,\&quot;posts_count\&quot;:2,\&quot;reply_count\&quot;:0,\&quot;highest_post_number\&quot;:2,\&quot;image_url\&quot;:null,\&quot;created_at\&quot;:\&quot;2022-01-23T08:32:02.328Z\&quot;,\&quot;last_posted_at\&quot;:\&quot;2022-01-24T11:40:08.237Z\&quot;,\&quot;bumped\&quot;:true,\&quot;bumped_at\&quot;:\&quot;2022-01-24T11:40:08.237Z\&quot;,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;unseen\&quot;:false,\&quot;pinned\&quot;:false,\&quot;unpinned\&quot;:null,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;bookmarked\&quot;:null,\&quot;liked\&quot;:null,\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;like_count\&quot;:0,\&quot;views\&quot;:120,\&quot;category_id\&quot;:6,\&quot;featured_link\&quot;:null,\&quot;has_accepted_answer\&quot;:true,\&quot;posters\&quot;:[{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Original Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:386,\&quot;username\&quot;:\&quot;Alireza\&quot;,\&quot;name\&quot;:\&quot;Alireza Farahani\&quot;,\&quot;avatar_template\&quot;:\&quot;https://avatars.discourse-cdn.com/v4/letter/a/b77776/{size}.png\&quot;}},{\&quot;extras\&quot;:\&quot;latest\&quot;,\&quot;description\&quot;:\&quot;Most Recent Poster, Accepted Answer\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;}}]},{\&quot;id\&quot;:3919,\&quot;title\&quot;:\&quot;Can&#39;t send signal to specific user\&quot;,\&quot;fancy_title\&quot;:\&quot;Can\\u0026rsquo;t send signal to specific user\&quot;,\&quot;slug\&quot;:\&quot;cant-send-signal-to-specific-user\&quot;,\&quot;posts_count\&quot;:3,\&quot;reply_count\&quot;:0,\&quot;highest_post_number\&quot;:3,\&quot;image_url\&quot;:null,\&quot;created_at\&quot;:\&quot;2022-04-23T17:15:41.974Z\&quot;,\&quot;last_posted_at\&quot;:\&quot;2022-04-26T10:50:44.856Z\&quot;,\&quot;bumped\&quot;:true,\&quot;bumped_at\&quot;:\&quot;2022-04-26T10:50:44.856Z\&quot;,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;unseen\&quot;:false,\&quot;pinned\&quot;:false,\&quot;unpinned\&quot;:null,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;bookmarked\&quot;:null,\&quot;liked\&quot;:null,\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;like_count\&quot;:0,\&quot;views\&quot;:90,\&quot;category_id\&quot;:6,\&quot;featured_link\&quot;:null,\&quot;has_accepted_answer\&quot;:false,\&quot;posters\&quot;:[{\&quot;extras\&quot;:\&quot;latest\&quot;,\&quot;description\&quot;:\&quot;Original Poster, Most Recent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:793,\&quot;username\&quot;:\&quot;Developer3010\&quot;,\&quot;name\&quot;:\&quot;Matteo\&quot;,\&quot;avatar_template\&quot;:\&quot;https://avatars.discourse-cdn.com/v4/letter/d/5f9b8f/{size}.png\&quot;}},{\&quot;extras\&quot;:null,\&quot;description\&quot;:\&quot;Frequent Poster\&quot;,\&quot;user\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;}}]}],\&quot;tags\&quot;:[],\&quot;tags_descriptions\&quot;:{},\&quot;id\&quot;:4075,\&quot;title\&quot;:\&quot;How to implement Full screen\&quot;,\&quot;fancy_title\&quot;:\&quot;How to implement Full screen\&quot;,\&quot;posts_count\&quot;:2,\&quot;created_at\&quot;:\&quot;2022-07-06T12:48:17.751Z\&quot;,\&quot;views\&quot;:88,\&quot;reply_count\&quot;:0,\&quot;like_count\&quot;:0,\&quot;last_posted_at\&quot;:\&quot;2022-07-06T20:46:31.163Z\&quot;,\&quot;visible\&quot;:true,\&quot;closed\&quot;:false,\&quot;archived\&quot;:false,\&quot;has_summary\&quot;:false,\&quot;archetype\&quot;:\&quot;regular\&quot;,\&quot;slug\&quot;:\&quot;how-to-implement-full-screen\&quot;,\&quot;category_id\&quot;:6,\&quot;word_count\&quot;:116,\&quot;deleted_at\&quot;:null,\&quot;user_id\&quot;:1166,\&quot;featured_link\&quot;:null,\&quot;pinned_globally\&quot;:false,\&quot;pinned_at\&quot;:null,\&quot;pinned_until\&quot;:null,\&quot;image_url\&quot;:null,\&quot;slow_mode_seconds\&quot;:0,\&quot;draft\&quot;:null,\&quot;draft_key\&quot;:\&quot;topic_4075\&quot;,\&quot;draft_sequence\&quot;:null,\&quot;unpinned\&quot;:null,\&quot;pinned\&quot;:false,\&quot;current_post_number\&quot;:1,\&quot;highest_post_number\&quot;:2,\&quot;deleted_by\&quot;:null,\&quot;actions_summary\&quot;:[{\&quot;id\&quot;:4,\&quot;count\&quot;:0,\&quot;hidden\&quot;:false,\&quot;can_act\&quot;:false},{\&quot;id\&quot;:8,\&quot;count\&quot;:0,\&quot;hidden\&quot;:false,\&quot;can_act\&quot;:false},{\&quot;id\&quot;:7,\&quot;count\&quot;:0,\&quot;hidden\&quot;:false,\&quot;can_act\&quot;:false}],\&quot;chunk_size\&quot;:20,\&quot;bookmarked\&quot;:false,\&quot;bookmarks\&quot;:[],\&quot;topic_timer\&quot;:null,\&quot;message_bus_last_id\&quot;:0,\&quot;participant_count\&quot;:2,\&quot;show_read_indicator\&quot;:false,\&quot;thumbnails\&quot;:null,\&quot;slow_mode_enabled_until\&quot;:null,\&quot;tags_disable_ads\&quot;:false,\&quot;accepted_answer\&quot;:{\&quot;post_number\&quot;:2,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;excerpt\&quot;:\&quot;Fullscreen is just a plain JS/CSS feature: \\u003ca href=\\\&quot;https://www.w3schools.com/howto/howto_js_fullscreen.asp\\\&quot; class=\\\&quot;inline-onebox\\\&quot;\\u003eHow To Change The Browser To Fullscreen with JavaScript\\u003c/a\\u003e \\nOpenVidu does not really intervene in this matter.\&quot;},\&quot;details\&quot;:{\&quot;can_edit\&quot;:false,\&quot;notification_level\&quot;:1,\&quot;participants\&quot;:[{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;,\&quot;post_count\&quot;:1,\&quot;primary_group_name\&quot;:null,\&quot;flair_name\&quot;:null,\&quot;flair_url\&quot;:null,\&quot;flair_color\&quot;:null,\&quot;flair_bg_color\&quot;:null,\&quot;moderator\&quot;:true,\&quot;trust_level\&quot;:2},{\&quot;id\&quot;:1166,\&quot;username\&quot;:\&quot;Glen_Elkins1\&quot;,\&quot;name\&quot;:\&quot;Glen Elkins\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/glen_elkins1/{size}/1975_2.png\&quot;,\&quot;post_count\&quot;:1,\&quot;primary_group_name\&quot;:null,\&quot;flair_name\&quot;:null,\&quot;flair_url\&quot;:null,\&quot;flair_color\&quot;:null,\&quot;flair_bg_color\&quot;:null,\&quot;trust_level\&quot;:1}],\&quot;created_by\&quot;:{\&quot;id\&quot;:1166,\&quot;username\&quot;:\&quot;Glen_Elkins1\&quot;,\&quot;name\&quot;:\&quot;Glen Elkins\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/glen_elkins1/{size}/1975_2.png\&quot;},\&quot;last_poster\&quot;:{\&quot;id\&quot;:13,\&quot;username\&quot;:\&quot;pabloFuente\&quot;,\&quot;name\&quot;:\&quot;Pablo Fuente\&quot;,\&quot;avatar_template\&quot;:\&quot;/user_avatar/openvidu.discourse.group/pablofuente/{size}/17_2.png\&quot;},\&quot;links\&quot;:[{\&quot;url\&quot;:\&quot;https://www.w3schools.com/howto/howto_js_fullscreen.asp\&quot;,\&quot;title\&quot;:\&quot;How To Change The Browser To Fullscreen with JavaScript\&quot;,\&quot;internal\&quot;:false,\&quot;attachment\&quot;:false,\&quot;reflection\&quot;:false,\&quot;clicks\&quot;:6,\&quot;user_id\&quot;:13,\&quot;domain\&quot;:\&quot;www.w3schools.com\&quot;,\&quot;root_domain\&quot;:\&quot;w3schools.com\&quot;}]}}&quot;}"></div>
+      </discourse-assets-json>
+      <discourse-assets-icons></discourse-assets-icons>
+    </discourse-assets>
+
+      
+
+    
+    <noscript data-path="/t/how-to-implement-full-screen/4075">
+      <header>
+  <a href="/">
+    OpenVidu
+  </a>
+</header>
+
+
+      <div id="main-outlet" class="wrap" role="main">
+        <!-- preload-content: -->
+          <div id="topic-title">
+    <h1>
+      <a href="/t/how-to-implement-full-screen/4075">How to implement Full screen</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://openvidu.discourse.group/c/how-to-do-something-with-openvidu/6" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #F7941D'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>How to implement?</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+
+      <div id='post_1' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='OpenVidu'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/aa3f506071bdf389835667cd2a7cb66640b38761.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://openvidu.discourse.group/u/Glen_Elkins1'><span itemprop='name'>Glen_Elkins1</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-07-06T12:48:17Z' class='post-time'>
+                July 6, 2022, 12:48pm
+              </time>
+              <meta itemprop='dateModified' content='2022-07-06T12:48:17Z'>
+          <span itemprop='position'>#1</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>I’m just wondering how to implement a full screen button?</p>
+<p>I don’t need to know how to create the button itself I’m just not sure how to allow a publisher or subscriber to set a full screen view on the stream.</p>
+<p>I’m assuming for example I would have to unpublish the publisher or subscriber respectively and republish with an option to set full screen? Just can’t find the option for it. I’m using openvidu browser 2.20 at the moment but will be upgrading to 2.22</p>
+        </div>
+
+        <meta itemprop='headline' content='How to implement Full screen'>
+          <meta itemprop='keywords' content=''>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_2' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='OpenVidu'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='https://canada1.discourse-cdn.com/free1/uploads/openvidu/original/1X/aa3f506071bdf389835667cd2a7cb66640b38761.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='https://openvidu.discourse.group/u/pabloFuente'><span itemprop='name'>pabloFuente</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="https://openvidu.discourse.group/t/how-to-implement-full-screen/4075">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-07-06T20:46:31Z' class='post-time'>
+                July 6, 2022,  8:46pm
+              </time>
+              <meta itemprop='dateModified' content='2022-07-06T20:46:31Z'>
+          <span itemprop='position'>#2</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Fullscreen is just a plain JS/CSS feature: <a href="https://www.w3schools.com/howto/howto_js_fullscreen.asp" class="inline-onebox">How To Change The Browser To Fullscreen with JavaScript</a><br>
+OpenVidu does not really intervene in this matter.</p>
+        </div>
+
+        <meta itemprop='headline' content='How to implement Full screen'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+
+
+
+
+
+
+        <!-- :preload-content -->
+      </div>
+
+      <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/tos' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/privacy' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    </noscript>
+
+      
+
+      
+
+    <section id='main'>
+    </section>
+
+      <form id='hidden-login-form' method="post" action="/login" style="display: none;">
+        <input name="username" type="text"     id="signin_username">
+        <input name="password" type="password" id="signin_password">
+        <input name="redirect" type="hidden">
+        <input type="submit" id="signin-button" value="Log In">
+      </form>
+
+    <script defer src="https://canada1.discourse-cdn.com/free1/assets/start-discourse-f633b2931f6e959c2cfecc4ee982bf48e1277532eaa9bf41022188dc6f494f31.br.js"></script>
+
+    
+
+    <script defer src="https://canada1.discourse-cdn.com/free1/assets/browser-update-d7761004034ce1ea7686d586f5e8a8d216e6f67b609f9b4bcaba53b8b8d34729.br.js"></script>
+
+      
+
+      
+  </body>
+</html>

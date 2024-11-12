@@ -1,0 +1,212 @@
+body {
+    opacity: 0;
+}
+
+#map {
+    /*display: none; */
+    width: 100%;
+    height: 100%;
+}
+
+.leaflet-pane.leaflet-map-pane {
+    border: transparent;
+}
+
+img.leaflet-image-layer.leaflet-zoom-animated {
+    background: transparent;
+    z-index: 950;
+}
+
+path.leaflet-interactive {
+    -webkit-tap-highlight-color: transparent;
+    stroke: rgb(222,59,203);
+    stroke-opacity: 0.60;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    fill-opacity: 0.2;
+    fill-rule: evenodd;
+    z-index: 800;
+}
+
+.button.container {
+    z-index: 900;
+    height: 10%;
+    width: 100%;
+    top: 80%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#fslides {
+    display: inline-block;
+    position: absolute;
+    left: 18.5%;
+    height: 10px;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.80;
+    list-style-type: none;
+    text-align: center;
+    width: 65%;
+}
+
+.fslide {
+    display: none;
+    font-size: 15.75px;
+    padding: 0px 5px 0px 5px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    background-size: cover;
+    opacity: 0.85;
+    text-align: center;
+}
+
+.fslide li {
+    display: none;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.controls {
+    display: none;
+}
+
+.controls {
+    z-index: 900;
+    background: transparent;
+    color: rgba(17, 11, 11, 0.733);
+    border: transparent;
+    padding: 10px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px 0px 0px 10px;
+    height: 75px;
+    width: 100px;
+}
+
+.controls:hover,
+.controls:focus {
+    background: #333;
+    color: #eee;
+    padding: 10px 0px;
+    opacity: 0.65;
+    border-radius: 15px;
+    height: 55px;
+    width: 100px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 5.5%;
+    z-index: 800;
+    /* left: 37.5%; */
+}
+
+#capture  {
+    position:absolute;
+    bottom: 2.125%;
+    border-radius: 50px;
+    border-color: blue;
+    border-style:double ;
+    background: white;
+    border-width: medium;
+    z-index: 950;
+    left: 8.125%;
+    width: 125px;
+    height: 25px;
+}
+
+.video {
+    visibility: hidden;
+}
+
+.legendContainer {
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    left: 7.25%;
+    top: 1%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    opacity: 0.75;
+    width: 83%;
+    background: white;
+    z-index: 900;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.legendContainer .legendTitle {
+    width: 100%;
+    text-align: left;
+    left: 60%;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.legendContainer .legendScale ul {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+.legendContainer .legendScale ul li {
+    display: inline-block;
+    float: left;
+    width: 14%;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+
+.legendContainer ul.legendLabel li span {
+    display: inline-block;
+    float: left;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.logo {
+   z-index: 950;
+   position: absolute;
+   top: 3.5%;
+   left: 46%;
+   width: 100%;
+   opacity: 0.65;
+   background-color: transparent;
+   color: black;
+   text-align: center;
+}
+
+.logo img {
+    width: 115px;
+    height: 35px;
+    -webkit-tap-highlight-color: transparent;
+    cursor: grab;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+}
+
+.legend  {
+    z-index: 950;
+    position:absolute ;
+    color:crimson ;
+    right: 0%;
+    top: 19%;
+    opacity: 0.95;
+    background-color: transparent;
+    text-align: center;
+ }
+ 
